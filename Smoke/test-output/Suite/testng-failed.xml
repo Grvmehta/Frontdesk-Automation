@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.hotelogix.smoke.FrontdeskTest.Ireporter"/>
+    <listener class-name="com.hotelogix.smoke.FrontdeskTest.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hotelogix.smoke.FrontdeskTest.Ftest">
+        <methods>
+          <include name="fn_verifySettleFolioAndPILockAlert"/>
+          <include name="fn_verifyChangeInCheckInAndCheckOutDateInGrpResv"/>
+          <include name="fn_creatingCollection"/>
+          <include name="fn_verifyNoShowSelectedInGrpReserv"/>
+          <include name="fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc"/>
+          <include name="fn_verifyHoldTillChkbxInSingleTempResv"/>
+          <include name="LaunchApp"/>
+          <include name="fn_verifyRouteChargeRouteToNewFolioRoutePayment"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.hotelogix.smoke.FrontdeskTest.Ftest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

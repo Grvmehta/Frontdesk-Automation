@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Failed_suite_[Suite]">
+              <span class="suite-name border-passed">Failed suite [Suite]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Failed_suite_[Suite]">
+                    <span>D:\Old office data\NewFD\Smoke\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Failed_suite_[Suite]">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Failed_suite_[Suite]">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Failed_suite_[Suite]">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Failed_suite_[Suite]">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Failed_suite_[Suite]">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Failed_suite_[Suite]">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite_[Suite]" class="hide-methods passed suite-Failed_suite_[Suite]"> (hide)</a> <!-- hide-methods passed suite-Failed_suite_[Suite] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Suite]" class="show-methods passed suite-Failed_suite_[Suite]"> (show)</a> <!-- show-methods passed suite-Failed_suite_[Suite] -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite_[Suite]">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifyChangeInCheckInAndCheckOutDateInGrpResv">fn_verifyChangeInCheckInAndCheckOutDateInGrpResv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifyHoldTillChkbxInSingleTempResv">fn_verifyHoldTillChkbxInSingleTempResv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifyNoShowSelectedInGrpReserv">fn_verifyNoShowSelectedInGrpReserv</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc">fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifyRouteChargeRouteToNewFolioRoutePayment">fn_verifyRouteChargeRouteToNewFolioRoutePayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Suite]" title="com.hotelogix.smoke.FrontdeskTest.Ftest" hash-for-method="fn_verifySettleFolioAndPILockAlert">fn_verifySettleFolioAndPILockAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite_[Suite] -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite_[Suite]" class="panel Failed_suite_[Suite]">
+          <div class="suite-Failed_suite_[Suite]-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hotelogix.smoke.FrontdeskTest.Ftest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifyChangeInCheckInAndCheckOutDateInGrpResv">
+                  </a> <!-- fn_verifyChangeInCheckInAndCheckOutDateInGrpResv -->
+                  <span class="method-name">fn_verifyChangeInCheckInAndCheckOutDateInGrpResv</span>
+                  <em>
+(CheckIn and checkout date changed successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifyHoldTillChkbxInSingleTempResv">
+                  </a> <!-- fn_verifyHoldTillChkbxInSingleTempResv -->
+                  <span class="method-name">fn_verifyHoldTillChkbxInSingleTempResv</span>
+                  <em>
+(Create 1R2N reservation & verify 'Hold Till' checkbox on Add Quick Reservation form.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifyNoShowSelectedInGrpReserv">
+                  </a> <!-- fn_verifyNoShowSelectedInGrpReserv -->
+                  <span class="method-name">fn_verifyNoShowSelectedInGrpReserv</span>
+                  <em>
+(To verify 'No-Show Selected' button in group reservation.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc">
+                  </a> <!-- fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc -->
+                  <span class="method-name">fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc</span>
+                  <em>
+(All the POS and  Room rent posted to the Account statement.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifyRouteChargeRouteToNewFolioRoutePayment">
+                  </a> <!-- fn_verifyRouteChargeRouteToNewFolioRoutePayment -->
+                  <span class="method-name">fn_verifyRouteChargeRouteToNewFolioRoutePayment</span>
+                  <em>
+(To Verify Route charge, Route to new Folio Route Payment in Account Statement )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn_verifySettleFolioAndPILockAlert">
+                  </a> <!-- fn_verifySettleFolioAndPILockAlert -->
+                  <span class="method-name">fn_verifySettleFolioAndPILockAlert</span>
+                  <em>
+(To verify 'Settle Folio' button & Performa Invoice lock image in 1 night single checked-in reservation.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Suite]-class-passed -->
+        </div> <!-- panel Failed_suite_[Suite] -->
+        <div panel-name="test-xml-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Old office data\NewFD\Smoke\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Failed suite [Suite]&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.hotelogix.smoke.FrontdeskTest.Ireporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.hotelogix.smoke.FrontdeskTest.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hotelogix.smoke.FrontdeskTest.Ftest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;fn_verifySettleFolioAndPILockAlert&quot;/&gt;
+          &lt;include name=&quot;fn_verifyChangeInCheckInAndCheckOutDateInGrpResv&quot;/&gt;
+          &lt;include name=&quot;fn_creatingCollection&quot;/&gt;
+          &lt;include name=&quot;fn_verifyNoShowSelectedInGrpReserv&quot;/&gt;
+          &lt;include name=&quot;fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc&quot;/&gt;
+          &lt;include name=&quot;fn_verifyHoldTillChkbxInSingleTempResv&quot;/&gt;
+          &lt;include name=&quot;LaunchApp&quot;/&gt;
+          &lt;include name=&quot;fn_verifyRouteChargeRouteToNewFolioRoutePayment&quot;/&gt;
+          &lt;include name=&quot;closeApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.hotelogix.smoke.FrontdeskTest.Ftest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Suite] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite_[Suite]');
+function tableData_Failed_suite_[Suite]() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fn_verifyRouteChargeRouteToNewFolioRoutePayment')
+data.setCell(0, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(0, 3, 335441);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc')
+data.setCell(1, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(1, 3, 319199);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fn_verifySettleFolioAndPILockAlert')
+data.setCell(2, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(2, 3, 199560);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fn_verifyChangeInCheckInAndCheckOutDateInGrpResv')
+data.setCell(3, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(3, 3, 182443);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fn_verifyNoShowSelectedInGrpReserv')
+data.setCell(4, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(4, 3, 139589);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fn_verifyHoldTillChkbxInSingleTempResv')
+data.setCell(5, 2, 'com.hotelogix.smoke.FrontdeskTest.Ftest')
+data.setCell(5, 3, 76881);
+window.suiteTableData['Failed_suite_[Suite]']= { tableData: data, tableDiv: 'times-div-Failed_suite_[Suite]'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Failed_suite_[Suite]">
+              </div> <!-- times-div-Failed_suite_[Suite] -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Suite]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_verifyNoShowSelectedInGrpReserv</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">No show or cancellation of reservation has been done successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_verifyRouteChargeRouteToNewFolioRoutePayment</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked over payment</span>
+                <span class="reporter-method-output">Create new folio pop up header text verified.</span>
+                <span class="reporter-method-output">Route charge verified</span>
+                <span class="reporter-method-output">Routed payment verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Order transfer to the:A109</span>
+                <span class="reporter-method-output">Folio Matched</span>
+                <span class="reporter-method-output">All the POS and  Room rent posted to the Account statement.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_verifySettleFolioAndPILockAlert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Folio creted along with payment done and settlement and unlock not possible for the lock folio</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">fn_verifyChangeInCheckInAndCheckOutDateInGrpResv</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CheckIn and checkout date changed successfully.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">49 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hotelogix.smoke.FrontdeskTest.Ftest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fn_verifyPOSOrderTransferToRoomAndConsolidateAcc</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyCashCounterForYesOption</span>
+                <br/>
+                <span class="ignored-method-name">fn_SingleReservationCheckInThroughEnableEditingPage</span>
+                <br/>
+                <span class="ignored-method-name">fn_verify2Room1NGroupLnk</span>
+                <br/>
+                <span class="ignored-method-name">fn_create2Room1NReservation</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyTaxExemptforGrpreservation</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyCheckinSelectedBtnInGrpResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyEarlyCheckinSelectedBtnInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyTransferToRoomInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verify1N2RoomGrpCheckInForPkgWithInclusion</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAddGuestDetailsInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_splitReservationUsingSplitButtonOnRightclickOptionofReservation</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyPostingInAccAfterAutoNAuditIn1R1NResvForPkgWithInclusion</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyChequePayNowInGrpReservThroughRTClkPayment</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyCustomChargeAndOtherCharge</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAddEditGuestInfoAndPerNightPriceSplit</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAddNewRoomAndDeleteActionInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAddNewRoomInGrpResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_create3Room4NSeasonalReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAmountChangeInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyPriceChangeInGrpReservRoom</span>
+                <br/>
+                <span class="ignored-method-name">fn_verify1Room1NSingleLnk</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifySettleFolioAndLockFolioAlertAcceptInGrpResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAddEditDetailsInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRTClickCheckinForGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyChangeInRoomTariffForExtraBedInGrpResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_SingleReservationCheckInThroughRightClickOption</span>
+                <br/>
+                <span class="ignored-method-name">fn_groupCheckInThroughRightClickOption</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRefundfunctionalityforGroupResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verify2Room1NAgentCorpLnk</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyAssignChkbxInSingleTempResv</span>
+                <br/>
+                <span class="ignored-method-name">fn_create2Room1NPkgWithInclusionReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_create2R2NResvForWeeklyPostedPkgWithAddOns</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyManageSharerInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyConsolidateAccountInNightAuditedGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_groupCheckInThroughEnableEditingPage</span>
+                <br/>
+                <span class="ignored-method-name">fn_create2NSingleReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyDeletePerformaInvoicePopUp</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRTClickCheckInAndCancelCheckIn</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyPayTermInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyDNRForSelectedRoom</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyConsolidateAccAfterTransferToRMOrder</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRouteToNewFolioRouteChargeAndRoutePayment</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRefund</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyPayNowBtnInSampleRestaurant</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyTempReservBtnInSingleReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_verifyRTClickGrpCheckinAndCancelCheckinInGrpReserv</span>
+                <br/>
+                <span class="ignored-method-name">fn_create1NRackRateReservWithAddOns</span>
+                <br/>
+                <span class="ignored-method-name">fn_create1Room3NSeasonalRateReserv</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite_[Suite]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hotelogix.smoke.FrontdeskTest.Ftest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">LaunchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">fn_creatingCollection</span>
+                <span class="method-start">81677 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">fn_verifySettleFolioAndPILockAlert</span>
+                <span class="method-start">81753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">281316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fn_verifyNoShowSelectedInGrpReserv</span>
+                <span class="method-start">291956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">431547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fn_verifyChangeInCheckInAndCheckOutDateInGrpResv</span>
+                <span class="method-start">442585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">625032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc</span>
+                <span class="method-start">636294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">955497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fn_verifyRouteChargeRouteToNewFolioRoutePayment</span>
+                <span class="method-start">977143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">1312587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fn_verifyHoldTillChkbxInSingleTempResv</span>
+                <span class="method-start">1333905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">1410786 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

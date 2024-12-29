@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="49" total="55" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Folio creted along with payment done and settlement and unlock not possible for the lock folio]]>
+    </line>
+    <line>
+      <![CDATA[No show or cancellation of reservation has been done successfully]]>
+    </line>
+    <line>
+      <![CDATA[CheckIn and checkout date changed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Order transfer to the:A109]]>
+    </line>
+    <line>
+      <![CDATA[Folio Matched]]>
+    </line>
+    <line>
+      <![CDATA[All the POS and  Room rent posted to the Account statement.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked over payment]]>
+    </line>
+    <line>
+      <![CDATA[Create new folio pop up header text verified.]]>
+    </line>
+    <line>
+      <![CDATA[Route charge verified]]>
+    </line>
+    <line>
+      <![CDATA[Routed payment verified]]>
+    </line>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="1421913" started-at="2024-12-22T19:02:02Z" finished-at="2024-12-22T19:25:44Z">
+    <groups>
+    </groups>
+    <test name="Test(failed)" duration-ms="1421913" started-at="2024-12-22T19:02:02Z" finished-at="2024-12-22T19:25:44Z">
+      <class name="com.hotelogix.smoke.FrontdeskTest.Ftest">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="LaunchApp" is-config="true" duration-ms="81661" started-at="2024-12-23T00:32:02Z" finished-at="2024-12-23T00:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="fn_creatingCollection()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_creatingCollection" is-config="true" duration-ms="53" started-at="2024-12-23T00:33:24Z" finished-at="2024-12-23T00:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn_creatingCollection -->
+        <test-method status="PASS" signature="fn_verifySettleFolioAndPILockAlert()[pri:19, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifySettleFolioAndPILockAlert" duration-ms="199560" started-at="2024-12-23T00:33:24Z" description="To verify &#039;Settle Folio&#039; button &amp; Performa Invoice lock image in 1 night single checked-in reservation." finished-at="2024-12-23T00:36:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Folio creted along with payment done and settlement and unlock not possible for the lock folio]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_verifySettleFolioAndPILockAlert -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="10638" started-at="2024-12-23T00:36:43Z" finished-at="2024-12-23T00:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="fn_verifyNoShowSelectedInGrpReserv()[pri:34, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifyNoShowSelectedInGrpReserv" duration-ms="139589" started-at="2024-12-23T00:36:54Z" description="To verify &#039;No-Show Selected&#039; button in group reservation." finished-at="2024-12-23T00:39:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No show or cancellation of reservation has been done successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_verifyNoShowSelectedInGrpReserv -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="11038" started-at="2024-12-23T00:39:13Z" finished-at="2024-12-23T00:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="fn_verifyChangeInCheckInAndCheckOutDateInGrpResv()[pri:37, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifyChangeInCheckInAndCheckOutDateInGrpResv" duration-ms="182443" started-at="2024-12-23T00:39:25Z" description="CheckIn and checkout date changed successfully." finished-at="2024-12-23T00:42:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CheckIn and checkout date changed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_verifyChangeInCheckInAndCheckOutDateInGrpResv -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="11262" started-at="2024-12-23T00:42:27Z" finished-at="2024-12-23T00:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc()[pri:42, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc" duration-ms="319199" started-at="2024-12-23T00:42:38Z" description="All the POS and  Room rent posted to the Account statement." finished-at="2024-12-23T00:47:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Order transfer to the:A109]]>
+            </line>
+            <line>
+              <![CDATA[Folio Matched]]>
+            </line>
+            <line>
+              <![CDATA[All the POS and  Room rent posted to the Account statement.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_verifyPOSItemthroughTRFtoroomAfterAutoNightAuditinAcc -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="21646" started-at="2024-12-23T00:47:57Z" finished-at="2024-12-23T00:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="fn_verifyRouteChargeRouteToNewFolioRoutePayment()[pri:45, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifyRouteChargeRouteToNewFolioRoutePayment" duration-ms="335441" started-at="2024-12-23T00:48:19Z" description="To Verify Route charge, Route to new Folio Route Payment in Account Statement " finished-at="2024-12-23T00:53:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked over payment]]>
+            </line>
+            <line>
+              <![CDATA[Create new folio pop up header text verified.]]>
+            </line>
+            <line>
+              <![CDATA[Route charge verified]]>
+            </line>
+            <line>
+              <![CDATA[Routed payment verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fn_verifyRouteChargeRouteToNewFolioRoutePayment -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="21318" started-at="2024-12-23T00:53:55Z" finished-at="2024-12-23T00:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="fn_verifyHoldTillChkbxInSingleTempResv()[pri:57, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="fn_verifyHoldTillChkbxInSingleTempResv" duration-ms="76881" started-at="2024-12-23T00:54:16Z" description="Create 1R2N reservation &amp; verify &#039;Hold Till&#039; checkbox on Add Quick Reservation form." finished-at="2024-12-23T00:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fn_verifyHoldTillChkbxInSingleTempResv -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hotelogix.smoke.FrontdeskTest.Ftest@3b0143d3]" name="closeApp" is-config="true" duration-ms="11124" started-at="2024-12-23T00:55:33Z" finished-at="2024-12-23T00:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.hotelogix.smoke.FrontdeskTest.Ftest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

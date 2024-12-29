@@ -1,0 +1,4239 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Accounts (GRV_Hotel)</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #E7E7E7;
+}
+.frn_total_g {
+	padding-top: 7px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ccc;
+	text-align: right;
+	font-weight: bold;
+	font-size: 12px;
+}
+.frn_total_g_wb {
+	padding-top: 7px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.frn_total_g_bt {
+	padding-bottom: 7px;
+	text-align: right;
+}
+-->
+
+</style>
+
+<script type="text/javascript" src="https://12738.hotelogix.net/js/yui/build/yuiloader/yuiloader-min.js"></script> 
+<link href="https://12738.hotelogix.net/styles/common.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/styles/listmenu_h-new.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/styles/menu2.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/styles/colorshades.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/styles/color-picker.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/styles/celendar.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/js/container/container.css?v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/js/calendar/calendar.css.php?image_url=https://12738.hotelogix.net/images&amp;v=2n5202404091" rel="stylesheet" type="text/css">
+
+<link href="https://12738.hotelogix.net/js/fonts/fonts-min.css" rel="stylesheet" type="text/css">
+
+<!-- Skin CSS file -->  
+<link rel="stylesheet" type="text/css" href="https://12738.hotelogix.net/js/yui/build/assets/skins/sam/skin.css">   
+ 
+<link rel="stylesheet" href="https://12738.hotelogix.net/styles/jquery-ui.css">
+<script type="text/javascript" src="https://12738.hotelogix.net/jq/js/jquery-1.9.1.min.js"></script>
+         
+<script src="https://12738.hotelogix.net/js/jquery-ui.js?v=2n5202404091"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+
+var waitLoader = new Image();
+waitLoader.src = "https://12738.hotelogix.net/images/wait.gif";
+
+//-->
+</script>
+
+
+</head>
+<body class="yui-skin-sam"><iframe id="_yuiResizeMonitor" style="position: absolute; visibility: visible; width: 10em; height: 10em; top: -134px; left: -134px; border-width: 0px;"></iframe><div class="mask" id="PanelModalWait_mask" style="z-index: 5; height: 2209px; width: 1280px; display: none;">&nbsp;</div><div class="yui-panel-container shadow" id="PanelModalWait_c" style="visibility: hidden; left: 508px; top: 258px; z-index: 6;"><div id="PanelModalWait" class="yui-module yui-overlay yui-panel" style="visibility: inherit; width: 260px; height: 70px;"><div class="bd"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td align="center" valign="middle" style="vertical-align:middle;"><img src="https://12738.hotelogix.net/styles/assets-hl/css/wait.gif"></td></tr><tr height="1"><td>&nbsp;</td></tr><tr><td align="center" height:"11"=""><div id="loadingPanelText">Loading Content...</div></td></tr></tbody></table></div></div><div class="underlay"></div></div><div class="yui-panel-container shadow" id="wait_c" style="left: 518px; top: 259px; z-index: 4;"><div id="wait" class="yui-module yui-overlay yui-panel" style="visibility: inherit; width: 240px;"><div class="hd" style="cursor: auto;">Please wait...</div><div class="bd"><img src="https://12738.hotelogix.net/images/wait.gif"></div></div></div>
+
+
+<style>
+    .menulist ul {
+	visibility: hidden;
+	position: absolute;
+	top:10em;
+	top:23px;
+	left:1px;
+    }
+
+    .menulist ul ul {
+            top: 0px;
+            margin-left:1px;
+            left: 100%;
+    }
+    
+    .menulist.new-2017 li li{
+    color: #fff;
+    width:200px;
+    margin-bottom: -1px;
+    }
+</style>
+<table width="980" border="0" align="center" cellpadding="3" cellspacing="0" bgcolor="#FFFFFF">
+    <tbody><tr>
+        <td align="center">
+            
+            <table width="98%" border="0" cellspacing="0" cellpadding="3">
+                <tbody><tr>
+                    <td width="17%" rowspan="2" align="left"><a href="https://12738.hotelogix.net/account"><img src="https://12738.hotelogix.net/images/logo03.png" alt="" width="172" height="90" hspace="10" vspace="5" border="0"></a></td>
+                    <td width="83%" align="right"><a href="https://12738.hotelogix.net/frontdesk/login/logout/">Logout </a></td>
+                    
+                </tr>
+                <tr>
+                    <td align="right" class="main-title">Accounts<br>GRV_Hotel<br>
+                    
+                    
+                        <span class="page-heading">Welcome : gaurav mehta</span>      	
+                    </td>
+                </tr>
+                            </tbody></table>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="left" style="padding:0px; padding-left:10px; height:23px; background-image:url(https://12738.hotelogix.net/images/bg-top-menu.gif); background-repeat:repeat-x; background-color:#707071;">
+
+            <ul class="menulist new-2017" id="listMenuRoot">
+                <li>
+                    <a class="" id="products" href="https://12738.hotelogix.net/account/corporate"><span class="subind">&gt;</span>Registered Corporate</a>
+                </li>
+                <li>
+                    <a class="" id="products" href="https://12738.hotelogix.net/account/travelagent"><span class="subind">&gt;</span>Registered Travel Agent</a>                  
+                </li>
+                <li><a class="" id="products" href="https://12738.hotelogix.net/account/pos"><span class="subind">&gt;</span>POS</a>                  
+                </li>
+
+                <li><a class="" id="products" href="https://12738.hotelogix.net/account/hotelledger/"><span class="subind">&gt;</span>Hotel</a>  
+
+                </li><li><a class="" id="products" href="https://12738.hotelogix.net/account/deposits/"><span class="subind">&gt;</span>Deposit</a>         
+
+                </li><li><a class="" id="products" href="https://12738.hotelogix.net/account/chartofacc/index/type/assets/"><span class="subind">&gt;</span>Chart of Accounts</a>      
+                    
+                </li><li><a class="" id="products" href="https://12738.hotelogix.net/account/hotelledger/totaladhocpayment/type/report"><span class="subind">&gt;</span>Ad hoc Payment</a>         
+
+
+                </li>
+                <li>
+                    <a href="javascript:void();"><span class="subind">&gt;</span>
+                    <span class="subind">&gt;</span>
+                        Accounting                </a>
+                    <ul id="listMenu-id-1">
+         
+                    </ul>
+                            </li>
+                        
+                    
+                                                                <li class="menulist" style="width:150px;">
+                                    <a href="#"><span class="subind">&gt;</span>Account Mapping</a>
+                                    <ul id="listMenu-id-2">
+                                                                    <li><a class="" id="products" href="https://12738.hotelogix.net/account/accountmapping/profitcost">
+                            Profit / Cost Center Mapping </a></li>
+                                                          </ul>
+
+                                </li>  
+                                          <li class="menulist">
+                      <a href="#"><span class="subind">&gt;</span>Report</a>
+                      <ul id="listMenu-id-3">
+                          <li><a href="https://12738.hotelogix.net/account/report/billage/">Aging Report</a></li>  
+                                                     <li><a href="https://12738.hotelogix.net/account/report/paymentdetails">Payment Details Report</a></li> 
+                          <li><a href="https://12738.hotelogix.net/account/report/compbilloutstandingreport">Company/Bill Wise Outstanding Report</a></li> 
+                      </ul>
+                  </li>
+            </ul>    
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table width="99%" border="0" cellspacing="0" cellpadding="3">
+<tbody><tr>
+	<td align="left" class="page-heading">Hotel's Ledger</td>
+</tr>	
+<tr>
+	<td align="left" class="crumbs"><a href="https://12738.hotelogix.net/account">Main</a> /  / Hotel's Ledger</td>
+</tr>
+<tr>
+<td align="center">
+<form action="https://12738.hotelogix.net/account/hotelledger/listview/mode/AC" method="post" name="frmListView" id="frmListView">
+<input type="hidden" name="page" value="1">
+<input type="hidden" name="sortOrder" value="">
+<input type="hidden" name="orderBy" value="">
+<input type="hidden" name="fromPosList" id="fromPosList" value="">
+<input type="hidden" name="backPage" id="backPage" value="1">
+
+<input type="hidden" name="id" value="">
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+		
+	<tbody><tr>
+		<td class="error" align="center">
+					</td>
+	</tr>
+	
+	 <tr>
+	      <td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		  
+		  			
+			   <tbody><tr>
+                   <td><table width="100%" border="0" cellspacing="3" cellpadding="0" class="accSelCol">
+                           <tbody><tr>
+                               <td colspan="4">
+                                            </td></tr><tr>        <td colspan="2" class="rp-display-right" align="right">
+                 <input type="button" value="Select Columns" class="button" style="" onclick="selSrchOp('ACC_LEDGERS');" name="SelectColumns">
+            <div id="ACC_LEDGERStbl" class="selClmns" style="min-width: 180px; z-index: 999;">
+                <div class="btns">
+                                            <a href="javascript:void(0);" onclick="selAllOps('ACC_LEDGERS');;">Select All</a>
+                                                                <a href="javascript:void(0);" onclick="clearAllOps('ACC_LEDGERS');;">Clear</a>
+                                    </div>
+                <input type="text" class="rpSrchCls" id="rpSrchClsACC_LEDGERS" onkeyup="srchRpFun('ACC_LEDGERS')" placeholder="Search for columns.." title="filters">
+                <div class="box-scroll">
+                    <ul class="rpSrch" id="rpSrchACC_LEDGERS">
+                                                        <li>
+                                    <label>
+                                        <input name="extraCols[webrefid]" id="extraCols_webrefid" type="checkbox" value="1" class="selOpsACC_LEDGERS" onclick="">                                        <span>Web Ref Id</span>
+                                    </label>
+                                </li>
+                                                            <li>
+                                    <label>
+                                        <input name="extraCols[narration]" id="extraCols_narration" type="checkbox" value="1" class="selOpsACC_LEDGERS" onclick="">                                        <span>Narration</span>
+                                    </label>
+                                </li>
+                                                </ul>
+                                    </div>
+                <div class="btns">
+                    <a href="javascript:void(0);" onclick="selSrchOp('ACC_LEDGERS', '')">Cancel</a>
+                    <a href="javascript:void(0);" onclick="selSrchOp('ACC_LEDGERS',1)">Done</a>
+                </div>
+            </div>
+       </td></tr>                
+                                             
+                               
+                                 
+                     <tr>
+                   
+                       <td width="35%" align="right"><strong>Ledger:</strong></td>
+                       <td width="12%" align="right">
+					   <select name="searchLedger" id="searchLedger" onchange="setLedgerName(this)">
+					   	<option value="">--All--</option>
+						<option style="color:#000000" isfeaturemapped="" class="drp_val" value="HOTEL">Frontdesk</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="AGENT">Travel Agent</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="CORP">Corporate</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="POS">POS</option>                        </select>					   </td>
+                       <td width="4%" align="right" id="ledNameId" style="display:none">Name:</td>
+                       <td width="16%" align="left">
+					   
+					   <select name="searchLedgerNamePos" id="searchLedgerNamePos" style="display:none">
+					   <option value="">--All--</option>
+					   <option style="color:#000000" isfeaturemapped="" class="drp_val" value="96039">Sample Restaurant</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="96040">Sample Travel Desk</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="96042">Sample SPA</option>                       </select>
+					   
+					    <select name="searchLedgerNameCorp" id="searchLedgerNameCorp" style="display:none">
+						<option value="">--All--</option>
+					   <option style="color:#000000" isfeaturemapped="" class="drp_val" value="15582">IBM</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="15562">mehta</option>                       </select>
+					   
+					    <select name="searchLedgerNameAgent" id="searchLedgerNameAgent" style="display:none">
+						<option value="">--All--</option>
+					   <option style="color:#000000" isfeaturemapped="" class="drp_val" value="11040">MakeMy Trip</option>                       </select>
+					  
+					   </td>
+					 
+					   <td width="16%" align="left" id="sortPosFolioTypeTDId" style="display:none">
+					   						  <select name="sortPosFolioType" id="sortPosFolioType">
+						  <option value="">--- Show All ---</option>
+						  <option value="OF">--- Direct Sales Only ---</option>
+						  <option value="TTC">--- Transfer to City Ledger ---</option>
+						  <option value="STAFFSTL">--- Staff Settlement Ledger ---</option>
+						</select>
+					  
+					   </td>
+                       <td width="8%" align="right"><strong>Sync Status:</strong></td>
+                       <td width="10%" align="left" id="sortSyncTypeTDId">                           
+                           <select name="sortSyncType" id="sortSyncType" onchange="changepagelocation('',this)">
+                               <option value="">--All--</option>
+                               <option value="1">Sync</option>
+                               <option value="0">Not Sync</option>
+                           </select>                            
+                       </td>
+                       <td width="8%" align="right" id="folioTypeTd1" style="display:none;"><strong>Folio Type:</strong></td>
+                       <td width="10%" align="left" id="folioTypeTd2" style="display:none;">                           
+                           <select name="folioType" id="folioType" onchange="changepagelocation('',this)">
+                               <option value="">--All--</option>
+                               <option value="FD">Room/Group</option>
+                               <option value="POS">POS</option>
+                               <option value="COMM">Commission</option>
+                           </select>                            
+                       </td>
+			
+                     </tr>
+                   </tbody></table></td>
+                 </tr>
+				 
+				 
+                 <tr>
+                   <td><table width="100%" border="0" cellspacing="3" cellpadding="0">
+                     <tbody><tr>
+                       <td width="13%" align="right" valign="top"><strong>Search By Due Date:</strong> </td>
+                       <td width="5%" align="right" valign="top">From</td>
+                       <td width="13%" align="left" valign="top">
+					   <input name="displayFrom" id="displayFrom" type="text" size="10" maxlength="10" value="" readonly="">
+                  	<img src="https://12738.hotelogix.net/images/calendar.gif" id="showCalFrom" width="16" height="15">	<div id="calFromContainer" style="position: absolute; display: none;" class="yui-calcontainer single withtitle"><div class="title">Choose a date:</div><table cellspacing="0" class="yui-calendar y2024" id="cal1">
+<thead>
+<tr>
+<th colspan="7" class="calhead">
+<div class="calheader">
+<a class="calnavleft">&nbsp;</a>
+<a class="calnav" href="#">April 2024</a>
+<a class="calnavright">&nbsp;</a>
+</div>
+</th>
+</tr>
+<tr class="calweekdayrow">
+<th class="calweekdaycell">Su</th>
+<th class="calweekdaycell">Mo</th>
+<th class="calweekdaycell">Tu</th>
+<th class="calweekdaycell">We</th>
+<th class="calweekdaycell">Th</th>
+<th class="calweekdaycell">Fr</th>
+<th class="calweekdaycell">Sa</th>
+</tr>
+</thead>
+<tbody class="m4 calbody">
+<tr class="w14">
+<td class="calcell oom calcelltop calcellleft" id="cal1_cell0">31</td>
+<td class="calcell wd1 d1 selectable calcelltop" id="cal1_cell1"><a href="#" class="selector">1</a></td>
+<td class="calcell wd2 d2 selectable calcelltop" id="cal1_cell2"><a href="#" class="selector">2</a></td>
+<td class="calcell wd3 d3 selectable calcelltop" id="cal1_cell3"><a href="#" class="selector">3</a></td>
+<td class="calcell wd4 d4 selectable calcelltop" id="cal1_cell4"><a href="#" class="selector">4</a></td>
+<td class="calcell wd5 d5 selectable calcelltop" id="cal1_cell5"><a href="#" class="selector">5</a></td>
+<td class="calcell wd6 d6 selectable calcelltop calcellright" id="cal1_cell6"><a href="#" class="selector">6</a></td>
+</tr>
+<tr class="w15">
+<td class="calcell wd0 d7 selectable calcellleft" id="cal1_cell7"><a href="#" class="selector">7</a></td>
+<td class="calcell wd1 d8 selectable" id="cal1_cell8"><a href="#" class="selector">8</a></td>
+<td class="calcell wd2 d9 selectable" id="cal1_cell9"><a href="#" class="selector">9</a></td>
+<td class="calcell wd3 d10 today selectable" id="cal1_cell10"><a href="#" class="selector">10</a></td>
+<td class="calcell wd4 d11 selectable" id="cal1_cell11"><a href="#" class="selector">11</a></td>
+<td class="calcell wd5 d12 selectable" id="cal1_cell12"><a href="#" class="selector">12</a></td>
+<td class="calcell wd6 d13 selectable calcellright" id="cal1_cell13"><a href="#" class="selector">13</a></td>
+</tr>
+<tr class="w16">
+<td class="calcell wd0 d14 selectable calcellleft" id="cal1_cell14"><a href="#" class="selector">14</a></td>
+<td class="calcell wd1 d15 selectable" id="cal1_cell15"><a href="#" class="selector">15</a></td>
+<td class="calcell wd2 d16 selectable" id="cal1_cell16"><a href="#" class="selector">16</a></td>
+<td class="calcell wd3 d17 selectable" id="cal1_cell17"><a href="#" class="selector">17</a></td>
+<td class="calcell wd4 d18 selectable" id="cal1_cell18"><a href="#" class="selector">18</a></td>
+<td class="calcell wd5 d19 selectable" id="cal1_cell19"><a href="#" class="selector">19</a></td>
+<td class="calcell wd6 d20 selectable calcellright" id="cal1_cell20"><a href="#" class="selector">20</a></td>
+</tr>
+<tr class="w17">
+<td class="calcell wd0 d21 selectable calcellleft" id="cal1_cell21"><a href="#" class="selector">21</a></td>
+<td class="calcell wd1 d22 selectable" id="cal1_cell22"><a href="#" class="selector">22</a></td>
+<td class="calcell wd2 d23 selectable" id="cal1_cell23"><a href="#" class="selector">23</a></td>
+<td class="calcell wd3 d24 selectable" id="cal1_cell24"><a href="#" class="selector">24</a></td>
+<td class="calcell wd4 d25 selectable" id="cal1_cell25"><a href="#" class="selector">25</a></td>
+<td class="calcell wd5 d26 selectable" id="cal1_cell26"><a href="#" class="selector">26</a></td>
+<td class="calcell wd6 d27 selectable calcellright" id="cal1_cell27"><a href="#" class="selector">27</a></td>
+</tr>
+<tr class="w18">
+<td class="calcell wd0 d28 selectable calcellleft" id="cal1_cell28"><a href="#" class="selector">28</a></td>
+<td class="calcell wd1 d29 selectable" id="cal1_cell29"><a href="#" class="selector">29</a></td>
+<td class="calcell wd2 d30 selectable" id="cal1_cell30"><a href="#" class="selector">30</a></td>
+<td class="calcell oom" id="cal1_cell31">1</td>
+<td class="calcell oom" id="cal1_cell32">2</td>
+<td class="calcell oom" id="cal1_cell33">3</td>
+<td class="calcell oom calcellright" id="cal1_cell34">4</td>
+</tr>
+<tr class="w19">
+<td class="calcell oom calcellleft calcellbottom" id="cal1_cell35">5</td>
+<td class="calcell oom calcellbottom" id="cal1_cell36">6</td>
+<td class="calcell oom calcellbottom" id="cal1_cell37">7</td>
+<td class="calcell oom calcellbottom" id="cal1_cell38">8</td>
+<td class="calcell oom calcellbottom" id="cal1_cell39">9</td>
+<td class="calcell oom calcellbottom" id="cal1_cell40">10</td>
+<td class="calcell oom calcellright calcellbottom" id="cal1_cell41">11</td>
+</tr>
+</tbody>
+</table><a href="#" class="link-close"><span class="close-icon calclose"></span></a></div>				   </td>
+                       <td width="2%" align="right" valign="top">To</td>
+                       <td width="12%" align="left" valign="top">
+					   <input name="displayTill" id="displayTill" type="text" size="10" maxlength="10" value="" readonly="">
+                  	<img src="https://12738.hotelogix.net/images/calendar.gif" id="showCalTo" width="16" height="15">	<div id="calToContainer" style="position: absolute; display: none;" class="yui-calcontainer single withtitle"><div class="title">Choose a date:</div><table cellspacing="0" class="yui-calendar y2024" id="calTo">
+<thead>
+<tr>
+<th colspan="7" class="calhead">
+<div class="calheader">
+<a class="calnavleft">&nbsp;</a>
+<a class="calnav" href="#">April 2024</a>
+<a class="calnavright">&nbsp;</a>
+</div>
+</th>
+</tr>
+<tr class="calweekdayrow">
+<th class="calweekdaycell">Su</th>
+<th class="calweekdaycell">Mo</th>
+<th class="calweekdaycell">Tu</th>
+<th class="calweekdaycell">We</th>
+<th class="calweekdaycell">Th</th>
+<th class="calweekdaycell">Fr</th>
+<th class="calweekdaycell">Sa</th>
+</tr>
+</thead>
+<tbody class="m4 calbody">
+<tr class="w14">
+<td class="calcell oom calcelltop calcellleft" id="calTo_cell0">31</td>
+<td class="calcell wd1 d1 selectable calcelltop" id="calTo_cell1"><a href="#" class="selector">1</a></td>
+<td class="calcell wd2 d2 selectable calcelltop" id="calTo_cell2"><a href="#" class="selector">2</a></td>
+<td class="calcell wd3 d3 selectable calcelltop" id="calTo_cell3"><a href="#" class="selector">3</a></td>
+<td class="calcell wd4 d4 selectable calcelltop" id="calTo_cell4"><a href="#" class="selector">4</a></td>
+<td class="calcell wd5 d5 selectable calcelltop" id="calTo_cell5"><a href="#" class="selector">5</a></td>
+<td class="calcell wd6 d6 selectable calcelltop calcellright" id="calTo_cell6"><a href="#" class="selector">6</a></td>
+</tr>
+<tr class="w15">
+<td class="calcell wd0 d7 selectable calcellleft" id="calTo_cell7"><a href="#" class="selector">7</a></td>
+<td class="calcell wd1 d8 selectable" id="calTo_cell8"><a href="#" class="selector">8</a></td>
+<td class="calcell wd2 d9 selectable" id="calTo_cell9"><a href="#" class="selector">9</a></td>
+<td class="calcell wd3 d10 today selectable" id="calTo_cell10"><a href="#" class="selector">10</a></td>
+<td class="calcell wd4 d11 selectable" id="calTo_cell11"><a href="#" class="selector">11</a></td>
+<td class="calcell wd5 d12 selectable" id="calTo_cell12"><a href="#" class="selector">12</a></td>
+<td class="calcell wd6 d13 selectable calcellright" id="calTo_cell13"><a href="#" class="selector">13</a></td>
+</tr>
+<tr class="w16">
+<td class="calcell wd0 d14 selectable calcellleft" id="calTo_cell14"><a href="#" class="selector">14</a></td>
+<td class="calcell wd1 d15 selectable" id="calTo_cell15"><a href="#" class="selector">15</a></td>
+<td class="calcell wd2 d16 selectable" id="calTo_cell16"><a href="#" class="selector">16</a></td>
+<td class="calcell wd3 d17 selectable" id="calTo_cell17"><a href="#" class="selector">17</a></td>
+<td class="calcell wd4 d18 selectable" id="calTo_cell18"><a href="#" class="selector">18</a></td>
+<td class="calcell wd5 d19 selectable" id="calTo_cell19"><a href="#" class="selector">19</a></td>
+<td class="calcell wd6 d20 selectable calcellright" id="calTo_cell20"><a href="#" class="selector">20</a></td>
+</tr>
+<tr class="w17">
+<td class="calcell wd0 d21 selectable calcellleft" id="calTo_cell21"><a href="#" class="selector">21</a></td>
+<td class="calcell wd1 d22 selectable" id="calTo_cell22"><a href="#" class="selector">22</a></td>
+<td class="calcell wd2 d23 selectable" id="calTo_cell23"><a href="#" class="selector">23</a></td>
+<td class="calcell wd3 d24 selectable" id="calTo_cell24"><a href="#" class="selector">24</a></td>
+<td class="calcell wd4 d25 selectable" id="calTo_cell25"><a href="#" class="selector">25</a></td>
+<td class="calcell wd5 d26 selectable" id="calTo_cell26"><a href="#" class="selector">26</a></td>
+<td class="calcell wd6 d27 selectable calcellright" id="calTo_cell27"><a href="#" class="selector">27</a></td>
+</tr>
+<tr class="w18">
+<td class="calcell wd0 d28 selectable calcellleft" id="calTo_cell28"><a href="#" class="selector">28</a></td>
+<td class="calcell wd1 d29 selectable" id="calTo_cell29"><a href="#" class="selector">29</a></td>
+<td class="calcell wd2 d30 selectable" id="calTo_cell30"><a href="#" class="selector">30</a></td>
+<td class="calcell oom" id="calTo_cell31">1</td>
+<td class="calcell oom" id="calTo_cell32">2</td>
+<td class="calcell oom" id="calTo_cell33">3</td>
+<td class="calcell oom calcellright" id="calTo_cell34">4</td>
+</tr>
+<tr class="w19">
+<td class="calcell oom calcellleft calcellbottom" id="calTo_cell35">5</td>
+<td class="calcell oom calcellbottom" id="calTo_cell36">6</td>
+<td class="calcell oom calcellbottom" id="calTo_cell37">7</td>
+<td class="calcell oom calcellbottom" id="calTo_cell38">8</td>
+<td class="calcell oom calcellbottom" id="calTo_cell39">9</td>
+<td class="calcell oom calcellbottom" id="calTo_cell40">10</td>
+<td class="calcell oom calcellright calcellbottom" id="calTo_cell41">11</td>
+</tr>
+</tbody>
+</table><a href="#" class="link-close"><span class="close-icon calclose"></span></a></div>						   </td>
+                       <td width="3%" align="left" valign="top">&nbsp;</td>
+                       <td width="5%" align="right" valign="top"><strong>Folio#</strong></td>
+                       <td width="17%" align="left" valign="top"><input name="searchFolioNo" type="text" id="searchFolioNo" value=""></td>
+                       <td width="12%" align="right" valign="top"><strong>Group#/Rsv Id#</strong></td>
+                       <td width="18%" align="left" valign="top"><input name="searchResGrpid" type="text" id="searchResGrpid" value=""></td>
+                     </tr>
+                     
+
+                   </tbody></table></td>
+                 </tr>
+                
+                 
+               </tbody></table>
+			   
+			   </td>
+     </tr>
+	  	 <tr>
+	      <td align="right" style="padding-right:25px"><input type="submit" name="Submit" value="Search">
+                                    <input type="button" name="ExportCsv" filetype="csv" value="Export Csv" onclick="exportCsv(this);">
+                  <input type="button" name="ExportExl" filetype="xls" value="Export Excel" onclick="exportCsv(this);">
+                                </td>
+     </tr>
+	  
+	 <tr>
+	      <td align="center">
+                    			<table width="100%" border="0" align="center" cellpadding="3" cellspacing="0" bgcolor="#FFFFFF">
+                            <tbody><tr>
+                                <td colspan="13" align="left">                                    <a href="https://12738.hotelogix.net/account/hotelledger/listview/mode/VW"><strong>View Mode</strong></a>
+                                    </td>
+                            </tr>
+			<tr>
+				<td width="3%" align="center" bgcolor="#eeeeee" class="table-head-inside"><input type="checkbox" name="checkbox5" value="checkbox" onclick="toggleSelectPay(this.checked);"></td>
+				<td width="3%" align="left" bgcolor="#eeeeee" class="table-head-inside"><strong>#</strong></td>
+				<td width="9%" align="center" bgcolor="#eeeeee" class="table-head-inside">Ledger</td>	
+				<td width="8%" align="center" bgcolor="#eeeeee" class="table-head-inside">Folio#</td>				
+				<td width="9%" align="left" bgcolor="#eeeeee" class="table-head-inside">Description</td>
+				<td width="8%" align="left" bgcolor="#eeeeee" class="table-head-inside">Due Date/Payment Date</td>
+				
+				<td width="10%" align="center" bgcolor="#eeeeee" class="table-head-inside">Group#/Rsv Id#</td>
+						
+			
+				
+				<td width="9%" align="right" bgcolor="#eeeeee" class="table-head-inside">Amount</td>
+				<td width="9%" align="right" bgcolor="#eeeeee" class="table-head-inside">Tax</td>
+						
+				<td width="10%" align="right" bgcolor="#eeeeee" class="table-head-inside">Total Amount</td>
+				<td width="9%" align="right" bgcolor="#eeeeee" class="table-head-inside">Paid</td>
+				<td width="9%" align="left" bgcolor="#eeeeee" class="table-head-inside"><strong>Sync Status</strong></td>
+                                                                <td width="9%" align="left" bgcolor="#eeeeee" class="table-head-inside"><strong>Action</strong></td>
+                               
+		      </tr>	
+			
+								
+						<tr id="row_4179826" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_1" name="payChkBox[0__INV53]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_1" name="hidFolioMasterid[0__INV53]" value="4179826">
+                                                            <input type="hidden" id="refId_1" name="refIds[1]" value="1666311">
+                                                            <input type="hidden" id="folioType_1" name="folioType_[1]" value="OTH">
+                                                            <input type="hidden" id="posId_1" name="posId_[1]" value="0">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_1">
+							1.</td>
+							
+							<td align="left" valign="top" id="col_1">
+							Frontdesk							</td>
+							
+							<td align="center" valign="top" id="col_1">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/INV53/folioMasterId/4179826 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								INV53</a><br>
+								<em>(Jan 11, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_1">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_1">Jan 11, 2016</td>
+							<td align="center" valign="top" id="col_1">G 0410498</td>
+						
+							
+							<td align="right" valign="top" id="col_1">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_1">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_1">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_1">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_1">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_1"></td>
+							
+					    </tr>	
+					
+							
+										
+						<tr class="tr-alternate" id="row_4179827" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_2" name="payChkBox[0__INV52]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_2" name="hidFolioMasterid[0__INV52]" value="4179827">
+                                                            <input type="hidden" id="refId_2" name="refIds[2]" value="1666347">
+                                                            <input type="hidden" id="folioType_2" name="folioType_[2]" value="OTH">
+                                                            <input type="hidden" id="posId_2" name="posId_[2]" value="0">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_2">
+							2.</td>
+							
+							<td align="left" valign="top" id="col_2">
+							Frontdesk							</td>
+							
+							<td align="center" valign="top" id="col_2">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/INV52/folioMasterId/4179827 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								INV52</a><br>
+								<em>(Jan 11, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_2">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_2">Jan 11, 2016</td>
+							<td align="center" valign="top" id="col_2">04101277</td>
+						
+							
+							<td align="right" valign="top" id="col_2">Rs&nbsp;2,015.00</td>
+							<td align="right" valign="top" id="col_2">Rs&nbsp;200.00</td>
+							<td align="right" valign="top" id="col_2">Rs&nbsp;2,215.00</td>
+							<td align="right" valign="top" id="col_2">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_2">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_2"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_2257138" style="border: 0px;">
+							<td id="col_2" align="left">&nbsp;</td>
+							<td id="col_2" align="left">&nbsp;</td>
+							<td id="col_2" align="center">&nbsp;</td>
+							<td id="col_2" align="center">
+                                                        RSV8276984                                                        
+                                                        </td>
+							
+							
+							<td id="col_2" align="left"> (Paid by GRsSs GgLFs with Cash(RSV8276984))</td>	
+							<td id="col_2" align="left">Jan 11, 2016</td>	
+							<td id="col_2" align="left">&nbsp;</td>	
+							<td id="col_2" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_2" align="right">&nbsp;</td>
+							<td id="col_2" align="right">&nbsp;</td>	
+							
+							<td id="col_2" align="right">Rs&nbsp;2,215.00</td>
+							<td id="col_2" align="left">Not Sync</td>
+                                                                                                                <td id="col_2" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr id="row_4179817" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_3" name="payChkBox[96039__191]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_3" name="hidFolioMasterid[96039__191]" value="4179817">
+                                                            <input type="hidden" id="refId_3" name="refIds[3]" value="0">
+                                                            <input type="hidden" id="folioType_3" name="folioType_[3]" value="POS">
+                                                            <input type="hidden" id="posId_3" name="posId_[3]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_3">
+							3.</td>
+							
+							<td align="left" valign="top" id="col_3">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_3">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/191/folioMasterId/4179817 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								191</a><br>
+								<em>(Jan 10, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_3">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_3">Jan 10, 2016</td>
+							<td align="center" valign="top" id="col_3"></td>
+						
+							
+							<td align="right" valign="top" id="col_3">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_3">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_3">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_3">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_3">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_3"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27766" style="border: 0px;">
+							<td id="col_3" align="left">&nbsp;</td>
+							<td id="col_3" align="left">&nbsp;</td>
+							<td id="col_3" align="center">&nbsp;</td>
+							<td id="col_3" align="center">
+                                                        POS27766                                                        
+                                                        </td>
+							
+							
+							<td id="col_3" align="left"> (Transfer to Room(A207) (Rsv# 04101272) On Apr 10, 2024)</td>	
+							<td id="col_3" align="left">Apr 10, 2024</td>	
+							<td id="col_3" align="left">&nbsp;</td>	
+							<td id="col_3" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_3" align="right">&nbsp;</td>
+							<td id="col_3" align="right">&nbsp;</td>	
+							
+							<td id="col_3" align="right">Rs&nbsp;5.00</td>
+							<td id="col_3" align="left">Not Sync</td>
+                                                                                                                <td id="col_3" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr class="tr-alternate" id="row_4179818" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_4" name="payChkBox[96039__192]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_4" name="hidFolioMasterid[96039__192]" value="4179818">
+                                                            <input type="hidden" id="refId_4" name="refIds[4]" value="0">
+                                                            <input type="hidden" id="folioType_4" name="folioType_[4]" value="POS">
+                                                            <input type="hidden" id="posId_4" name="posId_[4]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_4">
+							4.</td>
+							
+							<td align="left" valign="top" id="col_4">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_4">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/192/folioMasterId/4179818 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								192</a><br>
+								<em>(Jan 10, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_4">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_4">Jan 10, 2016</td>
+							<td align="center" valign="top" id="col_4"></td>
+						
+							
+							<td align="right" valign="top" id="col_4">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_4">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_4">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_4">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_4">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_4"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27789" style="border: 0px;">
+							<td id="col_4" align="left">&nbsp;</td>
+							<td id="col_4" align="left">&nbsp;</td>
+							<td id="col_4" align="center">&nbsp;</td>
+							<td id="col_4" align="center">
+                                                        POS27789                                                        
+                                                        </td>
+							
+							
+							<td id="col_4" align="left"> (Transfer to Room(A209) (Rsv# 04101274) On Apr 10, 2024)</td>	
+							<td id="col_4" align="left">Apr 10, 2024</td>	
+							<td id="col_4" align="left">&nbsp;</td>	
+							<td id="col_4" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_4" align="right">&nbsp;</td>
+							<td id="col_4" align="right">&nbsp;</td>	
+							
+							<td id="col_4" align="right">Rs&nbsp;5.00</td>
+							<td id="col_4" align="left">Not Sync</td>
+                                                                                                                <td id="col_4" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr id="row_4179819" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_5" name="payChkBox[96039__193]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_5" name="hidFolioMasterid[96039__193]" value="4179819">
+                                                            <input type="hidden" id="refId_5" name="refIds[5]" value="0">
+                                                            <input type="hidden" id="folioType_5" name="folioType_[5]" value="POS">
+                                                            <input type="hidden" id="posId_5" name="posId_[5]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_5">
+							5.</td>
+							
+							<td align="left" valign="top" id="col_5">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_5">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/193/folioMasterId/4179819 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								193</a><br>
+								<em>(Jan 10, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_5">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_5">Jan 10, 2016</td>
+							<td align="center" valign="top" id="col_5"></td>
+						
+							
+							<td align="right" valign="top" id="col_5">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_5">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_5">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_5">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_5">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_5"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27790" style="border: 0px;">
+							<td id="col_5" align="left">&nbsp;</td>
+							<td id="col_5" align="left">&nbsp;</td>
+							<td id="col_5" align="center">&nbsp;</td>
+							<td id="col_5" align="center">
+                                                        POS27790                                                        
+                                                        </td>
+							
+							
+							<td id="col_5" align="left"> (Transfer to Room(A210) (Rsv# 04101275) On Apr 10, 2024)</td>	
+							<td id="col_5" align="left">Apr 10, 2024</td>	
+							<td id="col_5" align="left">&nbsp;</td>	
+							<td id="col_5" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_5" align="right">&nbsp;</td>
+							<td id="col_5" align="right">&nbsp;</td>	
+							
+							<td id="col_5" align="right">Rs&nbsp;5.00</td>
+							<td id="col_5" align="left">Not Sync</td>
+                                                                                                                <td id="col_5" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr class="tr-alternate" id="row_4179820" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_6" name="payChkBox[96039__194]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_6" name="hidFolioMasterid[96039__194]" value="4179820">
+                                                            <input type="hidden" id="refId_6" name="refIds[6]" value="0">
+                                                            <input type="hidden" id="folioType_6" name="folioType_[6]" value="POS">
+                                                            <input type="hidden" id="posId_6" name="posId_[6]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_6">
+							6.</td>
+							
+							<td align="left" valign="top" id="col_6">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_6">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/194/folioMasterId/4179820 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								194</a><br>
+								<em>(Jan 10, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_6">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_6">Jan 10, 2016</td>
+							<td align="center" valign="top" id="col_6"></td>
+						
+							
+							<td align="right" valign="top" id="col_6">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_6">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_6">Rs&nbsp;5.00</td>
+							<td align="right" valign="top" id="col_6">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_6">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_6"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27793" style="border: 0px;">
+							<td id="col_6" align="left">&nbsp;</td>
+							<td id="col_6" align="left">&nbsp;</td>
+							<td id="col_6" align="center">&nbsp;</td>
+							<td id="col_6" align="center">
+                                                        POS27793                                                        
+                                                        </td>
+							
+							
+							<td id="col_6" align="left"> (Transfer to Room(A212) (Rsv# 04101277) On Apr 10, 2024)</td>	
+							<td id="col_6" align="left">Apr 10, 2024</td>	
+							<td id="col_6" align="left">&nbsp;</td>	
+							<td id="col_6" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_6" align="right">&nbsp;</td>
+							<td id="col_6" align="right">&nbsp;</td>	
+							
+							<td id="col_6" align="right">Rs&nbsp;5.00</td>
+							<td id="col_6" align="left">Not Sync</td>
+                                                                                                                <td id="col_6" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr id="row_4179709" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_7" name="payChkBox[96039__189]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_7" name="hidFolioMasterid[96039__189]" value="4179709">
+                                                            <input type="hidden" id="refId_7" name="refIds[7]" value="0">
+                                                            <input type="hidden" id="folioType_7" name="folioType_[7]" value="POS">
+                                                            <input type="hidden" id="posId_7" name="posId_[7]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_7">
+							7.</td>
+							
+							<td align="left" valign="top" id="col_7">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_7">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/189/folioMasterId/4179709 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								189</a><br>
+								<em>(Jan 09, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_7">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_7">Jan 09, 2016</td>
+							<td align="center" valign="top" id="col_7"></td>
+						
+							
+							<td align="right" valign="top" id="col_7">Rs&nbsp;4.50</td>
+							<td align="right" valign="top" id="col_7">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_7">Rs&nbsp;4.50</td>
+							<td align="right" valign="top" id="col_7">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_7">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_7"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27741" style="border: 0px;">
+							<td id="col_7" align="left">&nbsp;</td>
+							<td id="col_7" align="left">&nbsp;</td>
+							<td id="col_7" align="center">&nbsp;</td>
+							<td id="col_7" align="center">
+                                                        POS27741                                                        
+                                                        </td>
+							
+							
+							<td id="col_7" align="left"> (Transfer to Room(103) (Rsv# 04101258) On Apr 10, 2024)</td>	
+							<td id="col_7" align="left">Apr 10, 2024</td>	
+							<td id="col_7" align="left">&nbsp;</td>	
+							<td id="col_7" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_7" align="right">&nbsp;</td>
+							<td id="col_7" align="right">&nbsp;</td>	
+							
+							<td id="col_7" align="right">Rs&nbsp;4.50</td>
+							<td id="col_7" align="left">Not Sync</td>
+                                                                                                                <td id="col_7" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr class="tr-alternate" id="row_4179710" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_8" name="payChkBox[96039__190]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_8" name="hidFolioMasterid[96039__190]" value="4179710">
+                                                            <input type="hidden" id="refId_8" name="refIds[8]" value="0">
+                                                            <input type="hidden" id="folioType_8" name="folioType_[8]" value="POS">
+                                                            <input type="hidden" id="posId_8" name="posId_[8]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_8">
+							8.</td>
+							
+							<td align="left" valign="top" id="col_8">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_8">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/190/folioMasterId/4179710 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								190</a><br>
+								<em>(Jan 09, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_8">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_8">Jan 09, 2016</td>
+							<td align="center" valign="top" id="col_8"></td>
+						
+							
+							<td align="right" valign="top" id="col_8">Rs&nbsp;20.00</td>
+							<td align="right" valign="top" id="col_8">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_8">Rs&nbsp;20.00</td>
+							<td align="right" valign="top" id="col_8">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_8">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_8"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27746" style="border: 0px;">
+							<td id="col_8" align="left">&nbsp;</td>
+							<td id="col_8" align="left">&nbsp;</td>
+							<td id="col_8" align="center">&nbsp;</td>
+							<td id="col_8" align="center">
+                                                        POS27746                                                        
+                                                        </td>
+							
+							
+							<td id="col_8" align="left"> (Transfer to Room(106) (Rsv# 04101261) On Apr 10, 2024)</td>	
+							<td id="col_8" align="left">Apr 10, 2024</td>	
+							<td id="col_8" align="left">&nbsp;</td>	
+							<td id="col_8" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_8" align="right">&nbsp;</td>
+							<td id="col_8" align="right">&nbsp;</td>	
+							
+							<td id="col_8" align="right">Rs&nbsp;20.00</td>
+							<td id="col_8" align="left">Not Sync</td>
+                                                                                                                <td id="col_8" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr id="row_4179701" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_9" name="payChkBox[0__INV51]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_9" name="hidFolioMasterid[0__INV51]" value="4179701">
+                                                            <input type="hidden" id="refId_9" name="refIds[9]" value="1666209">
+                                                            <input type="hidden" id="folioType_9" name="folioType_[9]" value="OTH">
+                                                            <input type="hidden" id="posId_9" name="posId_[9]" value="0">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_9">
+							9.</td>
+							
+							<td align="left" valign="top" id="col_9">
+							Frontdesk							</td>
+							
+							<td align="center" valign="top" id="col_9">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/INV51/folioMasterId/4179701 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								INV51</a><br>
+								<em>(Jan 07, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_9">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_9">Jan 07, 2016</td>
+							<td align="center" valign="top" id="col_9">04101250</td>
+						
+							
+							<td align="right" valign="top" id="col_9">Rs&nbsp;2,000.00</td>
+							<td align="right" valign="top" id="col_9">Rs&nbsp;200.00</td>
+							<td align="right" valign="top" id="col_9">Rs&nbsp;2,200.00</td>
+							<td align="right" valign="top" id="col_9">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_9">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_9"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_2257120" style="border: 0px;">
+							<td id="col_9" align="left">&nbsp;</td>
+							<td id="col_9" align="left">&nbsp;</td>
+							<td id="col_9" align="center">&nbsp;</td>
+							<td id="col_9" align="center">
+                                                        RSV8276838                                                        
+                                                        </td>
+							
+							
+							<td id="col_9" align="left"> (Paid by QlCMU OuSfa with Cheque (XXXX567890) Receipt# 4142 - Payment through cheque(RSV8276838))</td>	
+							<td id="col_9" align="left">Jan 07, 2016</td>	
+							<td id="col_9" align="left">&nbsp;</td>	
+							<td id="col_9" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_9" align="right">&nbsp;</td>
+							<td id="col_9" align="right">&nbsp;</td>	
+							
+							<td id="col_9" align="right">Rs&nbsp;2,200.00</td>
+							<td id="col_9" align="left">Not Sync</td>
+                                                                                                                <td id="col_9" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+										
+						<tr class="tr-alternate" id="row_4179698" style="border: 0px;">							
+							
+							<td>
+							                                                            <input disabled="disabled" type="checkbox" id="id_10" name="payChkBox[96039__188]" value="0" onclick="getPayAmount()">
+                                                            <input type="hidden" id="hidFolioMasterid_10" name="hidFolioMasterid[96039__188]" value="4179698">
+                                                            <input type="hidden" id="refId_10" name="refIds[10]" value="0">
+                                                            <input type="hidden" id="folioType_10" name="folioType_[10]" value="POS">
+                                                            <input type="hidden" id="posId_10" name="posId_[10]" value="96039">
+
+                                                            
+                                                                                                                </td> 
+							 							<td align="left" valign="top" id="col_10">
+							10.</td>
+							
+							<td align="left" valign="top" id="col_10">
+							<br>(Sample Restaurant)							</td>
+							
+							<td align="center" valign="top" id="col_10">
+							
+															<a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/popup/type/RSV/foliono/188/folioMasterId/4179698 &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">
+								188</a><br>
+								<em>(Jan 06, 2016)</em>
+						  </td>	
+								
+							<td align="left" valign="top" id="col_10">Hotel Ledger</td>
+							<td align="left" valign="top" id="col_10">Jan 06, 2016</td>
+							<td align="center" valign="top" id="col_10"></td>
+						
+							
+							<td align="right" valign="top" id="col_10">Rs&nbsp;20.00</td>
+							<td align="right" valign="top" id="col_10">Rs&nbsp;0.00</td>
+							<td align="right" valign="top" id="col_10">Rs&nbsp;20.00</td>
+							<td align="right" valign="top" id="col_10">&nbsp;</td>
+							
+							<td align="left" valign="top" id="col_10">Not Sync</td>
+                                                                                                                <td align="left" valign="top" id="col_10"></td>
+							
+					    </tr>	
+					
+							
+												<tr bgcolor="#FFFFCC" id="rowP_27739" style="border: 0px;">
+							<td id="col_10" align="left">&nbsp;</td>
+							<td id="col_10" align="left">&nbsp;</td>
+							<td id="col_10" align="center">&nbsp;</td>
+							<td id="col_10" align="center">
+                                                        POS27739                                                        
+                                                        </td>
+							
+							
+							<td id="col_10" align="left"> (Transfer to Room(A201) (Rsv# 04101249) On Apr 10, 2024)</td>	
+							<td id="col_10" align="left">Apr 10, 2024</td>	
+							<td id="col_10" align="left">&nbsp;</td>	
+							<td id="col_10" align="right">&nbsp;</td>
+						
+							
+							
+							<td id="col_10" align="right">&nbsp;</td>
+							<td id="col_10" align="right">&nbsp;</td>	
+							
+							<td id="col_10" align="right">Rs&nbsp;20.00</td>
+							<td id="col_10" align="left">Not Sync</td>
+                                                                                                                <td id="col_10" align="left">
+                                                                                                               </td>
+                                                        </tr>	
+													<tr>
+									<td align="left" colspan="13" height="1"><hr size="1" noshade="noshade" width="100%"></td>
+			  </tr>	
+					                                                        <tr>
+                            <td style="background-color: #A9A9A9; height: 20px" colspan="12"><b>Total Ad hoc payment collected</b> </td>
+                            <td style="background-color: #A9A9A9; height: 20px"> 
+                            Rs&nbsp;0.00                           <input type="hidden" name="totalAdhocAmount" id="totalAdhocAmount" value="0">     
+                            </td>
+                        </tr>
+		   </tbody></table> 
+          </td>
+       </tr>
+      
+	<tr>
+         <td class="table-head-inside">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td width="33%" align="left">Page&nbsp;<select name="offset" onchange="Navigate(this.value);"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option></select>&nbsp;of&nbsp;26</td><td width="31%" align="center">View<select name="maxEntries" onchange="Navigate(1);"><option style="color:#000000" isfeaturemapped="" class="drp_val" value="1">1</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="5">5</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="10" selected="">10</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="20">20</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="30">30</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="50">50</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="70">70</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="100">100</option><option style="color:#000000" isfeaturemapped="" class="drp_val" value="200">200</option></select>records per page </td><td width="36%" align="right"><span>&lt;&lt;Previous</span> | <a href="Javascript:Navigate('2');" "=""><span>Next&gt;&gt;</span></a></td></tr></tbody></table>         </td>
+    </tr>
+    <tr>
+        <td align="left">
+            <input type="button" id="autoSettle" style="cursor: pointer;" onclick="autoSettlePayment();" value="Auto Settle" class="button" name="autoSettle">
+        </td>
+    </tr>
+	
+	   	   <tr>
+          <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td width="69%">&nbsp;</td>
+                <td width="16%" align="right" class="frn_total_g_wb">Total</td>
+                <td width="15%" align="right">Rs&nbsp;4,079.50</td>
+              </tr>
+			   <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Total Disc</td>
+                <td align="right">Rs&nbsp;0.00</td>
+              </tr>
+			  
+              <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Total Tax</td>
+                <td align="right">Rs&nbsp;400.00</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Total With Tax</td>
+                <td align="right" class="frn_total_g">Rs&nbsp;4,479.50</td>
+              </tr>
+             
+              <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Total Paid  	</td>
+                <td align="right">Rs&nbsp;4,479.50</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Ad hoc Balance  	</td>
+                <td align="right">Rs&nbsp;0.00</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td align="right" class="frn_total_g_wb">Balance </td>
+                <td align="right" class="frn_total_g">Rs&nbsp;0.00</td>
+              </tr>
+              
+            </tbody></table></td>
+       </tr>
+       <tr>
+          <td align="right"><input type="button" name="grndT" id="grndT" onclick="getGrandTotal();" value="Grand Total">
+                      </td>
+       </tr> 
+       <tr>
+          <td align="right">
+                           <div id="grandToTalFld"></div>
+             <div id="grandToTalFldLoader" style="display: none;"><img src="https://12738.hotelogix.net/images/horizloader.gif"></div>   
+          </td>
+       </tr>
+        
+       
+      <tr>
+          <td>	<br>
+	<table cellspacing="0" cellpadding="0" border="0" width="100%" class="dont-print-me">
+			  
+			<tbody><tr class="payment-section-hd">
+            	<td width="14"></td><td width="5" class="tl"></td><td width="90" class="size16 bg"><strong>Payments</strong></td><td width="5" class="tr"></td><td colspan="3">&nbsp;</td>
+            </tr>			  
+			  
+			<tr class="payment-section-bd"><td width="14"></td><td colspan="6"><table cellspacing="0" cellpadding="5" border="0" width="100%" class="payment-details">
+			  <tbody>
+              <tr>
+                <td width="13%" bgcolor="#eeeeee" class="table-head-inside">Mode </td>
+                <td width="14%" bgcolor="#eeeeee" class="table-head-inside">Type</td>
+                <td width="10%" bgcolor="#eeeeee" class="table-head-inside">Amount</td>
+                <td width="15%" bgcolor="#eeeeee" class="table-head-inside">CC/Cheque No</td>
+                <td width="10%" bgcolor="#eeeeee" class="table-head-inside">Receipt #</td>
+                <td width="15%" bgcolor="#eeeeee" class="table-head-inside">Description</td>
+                <td width="14%" bgcolor="#eeeeee" class="table-head-inside">Payment Date</td>
+                <td width="9%" bgcolor="#eeeeee" class="table-head-inside">&nbsp;</td>
+              </tr>
+			   <tr>
+                <td>
+	                <select onchange="changeCardType(this);" class="blue_dropdown" id="payTypesMode" name="payTypesMode">
+	                      <option selected="selected" paymodeatt="" value="">Select</option>
+	                     <option paymodeatt="Cash" paymodeidatt="80122" credittobankatt="0" style="color:#000000" class="drp_val" value="cash">Cash</option><option paymodeatt="Cheque" paymodeidatt="113473" credittobankatt="0" style="color:#000000" class="drp_val" value="cheque">Cheque</option><option paymodeatt="Credit Card__Online Payment Gateway__Visa" paymodeidatt="80121__80124__80127" credittobankatt="0__0__0" style="color:#000000" class="drp_val" value="cc">Credit Card</option><option paymodeatt="" paymodeidatt="" credittobankatt="" style="color:#000000" class="drp_val" value="bank">Bank Transfer</option><option paymodeatt="Payment Collected from POS" paymodeidatt="97067" credittobankatt="0" style="color:#000000" class="drp_val" value="oth">Others</option><option paymodeatt="Bad Debts" paymodeidatt="80123" credittobankatt="0" style="color:#000000" class="drp_val" value="revloss">Revenue Loss</option>						 </select>
+                </td>
+                <td>
+					 <select class="blue_dropdown" id="payTypes" name="payTypes">
+	                      <option selected="selected" value="">Select</option>	                     
+	                </select>
+				</td>
+                <td><input type="text" value="" size="11" class="blue_inputbox" id="amount" name="amount">
+				<input type="hidden" value="0" size="11" class="blue_inputbox" id="oriAmount" name="oriAmount">
+				</td>
+               
+			    <td><input type="text" value="" size="11" class="blue_inputbox" id="ccChequeNo" name="ccChequeNo"></td>
+				
+                <td><input type="text" size="11" class="blue_inputbox" id="receiptNo" name="receiptNo"></td>
+                <td><input type="text" size="11" class="blue_inputbox" id="description" name="description"></td>
+                <td style="white-space: nowrap;">
+                    <span style="float:left;">
+                    <input name="paymentDate" id="paymentDate" class="blue_inputbox" type="text" size="10" maxlength="10" value="2016-01-12" readonly="">
+                  	<img src="https://12738.hotelogix.net/images/calendar.gif" id="showCalPayment" width="16" height="15" onclick="showPaymentCal();">
+                    <div id="calPaymentContainer" style="zindex:10; position:absolute;"></div>		
+                    </span>
+                </td>
+                <td>
+            	<input type="button" id="btnpaynow" style="cursor: pointer;" onclick="payAmount('https://12738.hotelogix.net/account/hotelledger');" value="Pay Now" class="button" name="btnPaymentPayNow">
+				<input type="hidden" size="11" class="blue_inputbox" id="hidPay" name="hidPay">
+                                <input type="hidden" id="isadhoc" name="isadhoc">
+                                <input name="hdnPaymentReqToken" id="hdnPaymentReqToken" type="hidden" value="6acf3ee9-5c37-cbbb-2f36-661678b6f99b">
+				</td>
+              </tr>
+			  
+			</tbody></table>
+			</td></tr>			  
+			  <!--end of tr-->
+			  
+            </tbody></table>
+</td>
+       </tr>
+	   
+	     <tr>
+          <td>&nbsp;</td>
+       </tr>
+	     <tr>
+          <td align="center">
+		  <div id="xeroDv1LastRes"></div>
+		  		  </td>
+       </tr>
+	          
+       <tr><td align="right" style="padding-right:30px;" id="posAudit"><a href="javascript:;" onclick="MM_openBrWindow(&quot; https://12738.hotelogix.net/account/hotelledger/panelaccountaudittrail &quot;,&quot;&quot;,&quot;scrollbars=yes,width=720,height=400&quot;)">AuditTrail</a></td></tr>
+       
+    </tbody></table>		
+	<div id="sendMailDialog" title="Send Mail" style="display:none;text-align:center">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+            <tbody><tr>
+                <td colspan="2" align="center"><div id="msgErr" style="display:none; color: #DD4477;"></div></td>
+            </tr>
+                <tr>
+                    <td align="right" width="20%">
+                        <span class="bld">Name:</span>
+                    </td>
+                    <td align="left" width="80%">
+                        <input name="txtName" id="txtName" type="text" value="" style="width:160px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <span class="bld">Email:</span>
+                    </td>
+                    <td align="left">
+                        <input name="txtEmail" id="txtEmail" type="text" value="" style="width:160px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Comments:</td>
+                    <td align="left"></td>
+                </tr>
+                <tr>
+                    <td align="left" colspan="2" style="padding-left:20px;">
+                        <textarea name="txtMsg" id="txtMsg" cols="35" rows="4"></textarea>
+                    </td>
+                </tr>
+        </tbody></table>
+</div>		
+
+	<div id="sendMailDialogBr" title="E-mail Invoice" style="display:none;text-align:center">
+        <table width="100%" border="0" cellspacing="2" cellpadding="2">
+            <tbody><tr>
+                <td colspan="2" align="center"><div id="msgErrBr" style="display:none; color: #DD4477;"></div></td>
+            </tr>
+                <tr>
+                    <td align="right" width="20%">
+                        <span class="bld">Name:</span>
+                    </td>
+                    <td align="left" width="80%">
+                        <input name="txtName" id="txtNameBr" type="text" value="" style="width:160px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <span class="bld">Email:</span>
+                    </td>
+                    <td align="left">
+                        <input name="txtEmail" id="txtEmailBr" type="text" value="" style="width:160px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <span class="bld">Currencies:</span>
+                    </td>
+                    <td align="left">
+                        <!-- input name="isPkgCurrency" id="isPkgCurrency" type="checkbox" value="1" /> Is Package Currency? -->
+                        <div id="currencyList">
+                            <select name="pkgCurrencyId" id="pkgCurrencyId" style="width:170px;"> 
+                                <option value="0">Select</option>
+                                <option value="-1">In Package Currency</option>
+                                <option value="58">India, Rupees (Rs or Rs. are commonly used instead(INR)</option><option value="74">Lebanon, Pounds(LBP)</option><option value="129">United States of America, Dollars(USD)</option>                            </select>    
+                        </div>
+                    </td>
+                </tr>
+                        </tbody></table>
+</div>		
+	</form>
+
+  </td>
+	
+</tr>
+	
+
+<script language="javascript">
+	function Navigate(o) {
+		if (parseInt(document.frmListView.maxEntries.value) >= 100000) {
+			if (!confirm('You have selected to view all records on a single page.\nIt may take some time to show all the records.\nIf the number of records are too much then it may misconfigure your server.\nDo you want to continue?')) {
+				return false;
+			}
+		}
+
+		document.frmListView.page.value = o;
+		document.frmListView.offset.value = o;
+		document.frmListView.submit();
+
+	}
+
+	function submitForm() {
+		document.frmListView.submit();
+	}
+
+	function submitForm4Rmtype() {
+		document.frmListView.page.value = 0;
+		document.frmListView.offset.value = 0;
+		document.frmListView.submit();
+
+	}
+
+	function doSort(fld, order_by) {
+		document.frmListView.orderBy.value = fld;
+		document.frmListView.sortOrder.value = order_by;
+		document.frmListView.submit();
+	}
+
+	function toggleSelect(fl) {
+
+					var i = 10;
+		
+		for (j = 1; j <= i; j++) {
+			document.getElementById("id_" + j).checked = fl;
+		}
+
+	}
+
+	function addNew(act) {
+		toggleSelect(false);
+		if (!act) {
+			document.frmListView.action = "https://12738.hotelogix.net/account/hotelledger/editview/attamp/1";
+		} else {
+			document.frmListView.action = "https://12738.hotelogix.net/account/hotelledger/" + act;
+		}
+		document.frmListView.submit();
+
+	}
+
+	function editMultiple(act, totalCtrl) {
+		var i = 0;
+		var j = 0;
+		for (i = 1; i <= totalCtrl; ++i) {
+			chkBox = document.getElementById("id_" + i);
+			if (chkBox.checked == true) {
+				j++;
+			}
+		}
+		if (j == 0) return false;
+
+		document.frmListView.action = "https://12738.hotelogix.net/account/hotelledger/" + act;
+		document.frmListView.submit();
+	}
+
+	function deleteSelected(totalCtrl) {
+		var i = 0;
+		var j = 0;
+
+
+		for (i = 1; i <= totalCtrl; ++i) {
+			chkBox = document.getElementById("id_" + i);
+			if (chkBox.checked == true) {
+				j++;
+			}
+		}
+
+		if (j > 0) {
+
+			
+			if (!confirm("Do you really want to delete the selected records?")) {
+				return 0;
+			}
+		}
+
+		if (j == 0) return;
+		document.frmListView.action = "https://12738.hotelogix.net/account/hotelledger/delete";
+		document.frmListView.submit();
+	}
+
+	function logoutSelected(totalCtrl) {
+		var i = 0;
+		var j = 0;
+
+
+		for (i = 1; i <= totalCtrl; ++i) {
+			chkBox = document.getElementById("id_" + i);
+			if (chkBox.checked == true) {
+				j++;
+			}
+		}
+
+		if (j > 0) {
+			if (!confirm("Do you really wish to Logout the user(s)?")) {
+				return 0;
+			}
+		}
+
+		if (j == 0) return;
+		document.frmListView.action = "https://12738.hotelogix.net/account/hotelledger/delete";
+		document.frmListView.submit();
+	}
+
+
+
+	function changStatus(id) {
+		var imgUrl = "https://12738.hotelogix.net/images/";
+		var imgDiv = document.getElementById("status_" + id);
+		imgDiv.src = waitLoader.src;
+		var handleSuccess = function(o) {
+			if (o.responseText !== undefined) {
+				if (o.responseText == 'accessDenied') {
+					window.location.href = "https://12738.hotelogix.net/admine/unauthorized/noper/";
+				} else {
+
+					if (o.responseText == 'cantdeleterm') {
+						imgDiv.src = imgUrl + "on.GIF";
+						alert("This Room cannot be deactivated as it has Active Reservations");
+
+					} else if (o.responseText == 'cantdeletermt') {
+						imgDiv.src = imgUrl + "on.GIF";
+						alert("This Room Type cannot be deactivated as it has Active Reservations");
+
+					} else if (o.responseText == 'cantdeletepos') {
+						imgDiv.src = imgUrl + "on.GIF";
+						alert("This POS Point cannot be deactivated as it is attached with the inclusion(s).");
+
+					} else if (o.responseText == 'cantdeletepospro') {
+						imgDiv.src = imgUrl + "on.GIF";
+						alert("This product cannot be deactivated as it is attached with the inclusion(s).");
+
+					} else if (o.responseText == 'cantdeleteseaatt') {
+						imgDiv.src = imgUrl + "on.GIF";
+						alert("This sesson attribute cannot be deactivated as it is attached with the season(s).");
+
+					} else {
+						imgDiv.src = imgUrl + o.responseText;
+						return o.responseText;
+					}
+				}
+			}
+		}
+		var handleFailure = function(o) {
+			if (o.responseText !== undefined) {
+				return "Operation Failed";
+			}
+		}
+		var callback = {
+			success: handleSuccess,
+			failure: handleFailure,
+			argument: {
+				foo: "foo",
+				bar: "bar"
+			}
+		};
+
+		sUrl = 'https://12738.hotelogix.net/account/hotelledger/changestatus/id/' + id;
+
+		var request = YAHOO.util.Connect.asyncRequest('GET', sUrl, callback);
+	}
+
+	function changePrecisionAction(id, pricision) {
+		var handleSuccess = function(o) {
+			if (o.responseText == 'accessDenied') {
+				window.location.href = "https://12738.hotelogix.net/admine/unauthorized/noper/";
+			} else {
+				return o.responseText;
+			}
+		}
+		var handleFailure = function(o) {
+			if (o.responseText !== undefined) {
+				return "Operation Failed";
+			}
+		}
+		var callback = {
+			success: handleSuccess,
+			failure: handleFailure,
+			argument: {
+				foo: "foo",
+				bar: "bar"
+			}
+		};
+		sUrl = 'https://12738.hotelogix.net/account/hotelledger/changePrecision/id/' + id + '/pricision/' + pricision + '/';
+		var request = YAHOO.util.Connect.asyncRequest('GET', sUrl, callback);
+	}
+
+
+
+	function deleteSelected_v2(totalCtrl) {
+
+
+		var frm = document.frmListView;
+		var chkBox = null;
+
+		var idObject = new Array();
+		var j = 0;
+		for (i = 1; i <= totalCtrl; ++i) {
+			chkBox = document.getElementById("id_" + i);
+			if (chkBox.checked == true) {
+				j++;
+			}
+		}
+
+		if (j > 0) {
+			if (!confirm("Do you really want to delete the selected records?")) {
+				return 0;
+			}
+		}
+
+		if (j == 0) return;
+		j = 0;
+		YAHOO.example.container.wait.show();
+
+		for (i = 1; i <= totalCtrl; ++i) {
+			chkBox = document.getElementById("id_" + i);
+
+			if (chkBox.checked == true) {
+				idObject[j] = chkBox.value;
+				++j;
+				chkBox.checked = false;
+			}
+		}
+
+
+		var handleSuccess = function(o) {
+			var idArray = [];
+			if (o.responseText !== undefined) {
+				try {
+					idArray = YAHOO.lang.JSON.parse(o.responseText);
+				} catch (x) {
+					alert("JSON Parse failed!");
+					YAHOO.example.container.wait.hide();
+					return;
+				}
+				for (var i = 0, len = idArray.length; i < len; ++i) {
+					YAHOO.util.Dom.setStyle("row_" + idArray[i], "display", "none");
+					var rowObj = YAHOO.util.Dom.get("row_" + idArray[i]);
+					colObj = YAHOO.util.Dom.getFirstChild("row_" + idArray[i]);
+					colObj.innerHTML = 0;
+
+
+				}
+				var sn = 1;
+				for (i = 1; i <= totalCtrl; ++i) {
+					Obj = YAHOO.util.Dom.get("col_" + i);
+
+					var num = parseInt(Obj.innerHTML);
+					if (num != 0) {
+						Obj.innerHTML = sn;
+						++sn;
+					}
+
+				}
+
+				YAHOO.example.container.wait.hide();
+			}
+		}
+
+		var handleFailure = function(o) {
+			if (o.responseText !== undefined) {
+				YAHOO.example.container.wait.hide();
+				return "Operation Failed";
+			}
+		}
+		var callback = {
+			success: handleSuccess,
+			failure: handleFailure,
+			argument: {
+				foo: "foo",
+				bar: "bar"
+			}
+		};
+
+		sUrl = 'https://12738.hotelogix.net/account/hotelledger/delete';
+		postData = "ids=" + idObject;
+		var request = YAHOO.util.Connect.asyncRequest('POST', sUrl, callback, postData);
+
+	}
+
+
+	function MM_goToURL() { //v3.0
+		var i, args = MM_goToURL.arguments;
+		document.MM_returnValue = false;
+		for (i = 0; i < (args.length - 1); i += 2) eval(args[i] + ".location='" + args[i + 1] + "'");
+	}
+
+	function MM_openBrWindow(theURL, winName, features) { //v2.0
+		window.open(theURL, winName, features);
+	}
+
+	function calDates(sId, newVal, curDayVal, curMonthVal, eId, currId, firstId, lastId, setValToControl) {
+
+		var daysDom = ' ';
+		var monthsDom = ' ';
+		var daysInMonthListDom = ' ';
+		var daysDom = daysDom.split(",");
+		monthsDom = monthsDom.split(",");
+		daysInMonthListDom = daysInMonthListDom.split(",");
+
+		var sDays = YAHOO.util.Dom.get(sId);
+		var sMonths = YAHOO.util.Dom.get("startMonths_" + parseInt(currId));
+
+		//alert(" curr id ="+currId);
+
+		//alert(" lastId id ="+lastId);
+
+		var newVal = newVal;
+		var newValMonth;
+		//alert(newVal);
+		if (parseInt(daysInMonthListDom[sMonths.value - 1]) < parseInt(newVal)) {
+			alert("Not a valid Date");
+			sDays.value = curDayVal;
+			return false;
+		}
+		if (parseInt(currId) == parseInt(firstId)) {
+			var x = parseInt(lastId);
+			var eDate = YAHOO.util.Dom.get("endDatDay_" + parseInt(x));
+			var endDays = YAHOO.util.Dom.get("endDays_" + parseInt(x));
+			var endMonths = YAHOO.util.Dom.get("endMonths_" + parseInt(x));
+		}
+		if (parseInt(currId) == parseInt(lastId)) {
+			var x = parseInt(currId) - 1;
+			if (x <= 0) x = 1;
+			var eDate = YAHOO.util.Dom.get("endDatDay_" + parseInt(x));
+			var endDays = YAHOO.util.Dom.get("endDays_" + parseInt(x));
+			var endMonths = YAHOO.util.Dom.get("endMonths_" + parseInt(x));
+		}
+
+		if (parseInt(currId) != parseInt(lastId) && parseInt(currId) != parseInt(firstId)) {
+			var x = parseInt(currId) - 1;
+			if (x <= 0) x = 1;
+			//alert(x);
+			var eDate = YAHOO.util.Dom.get("endDatDay_" + parseInt(x));
+			var endDays = YAHOO.util.Dom.get("endDays_" + parseInt(x));
+			var endMonths = YAHOO.util.Dom.get("endMonths_" + parseInt(x));
+		}
+
+
+		var nDateStr = "";
+
+		if (newVal == 1) {
+			if (sMonths.value == 1) {
+				newVal = daysInMonthListDom[monthsDom.length - 1];
+				nDateStr = newVal + ' ' + monthsDom[monthsDom.length - 1];
+				//endDays.value=newVal;
+				//endMonths.value=monthsDom.length;
+				newValMonth = monthsDom.length;
+			} else {
+				newVal = daysInMonthListDom[sMonths.value - 2];
+				newVal = parseInt(daysInMonthListDom[sMonths.value - 2]);
+				nDateStr = newVal + ' ' + monthsDom[parseInt(curMonthVal) - 2];
+				//endDays.value=newVal;
+				//endMonths.value=parseInt(curMonthVal)-1;
+				newValMonth = parseInt(curMonthVal) - 1;
+			}
+		} else {
+			newVal = parseInt(newVal) - 1;
+			nDateStr = newVal + ' ' + monthsDom[sMonths.value - 1];
+			newValMonth = parseInt(sMonths.value);
+		}
+
+		if (setValToControl == 1) {
+			endDays.value = newVal;
+			endMonths.value = newValMonth;
+			eDate.innerHTML = nDateStr;
+		} else {
+			return endDays.value + ", " + endMonths.value
+		}
+	}
+
+	function roundNumber(num, dec) {
+		var result = Math.round(num * Math.pow(10, dec)) / Math.pow(10, dec);
+
+		//var result=YAHOO.util.Number.format(num,{decimalPlaces :dec});
+
+		return result;
+	}
+
+	function toggleSelectPay(fl) {
+
+					var i = 10;
+		
+		for (j = 1; j <= i; j++) {
+			if (document.getElementById("id_" + j).disabled == false)
+				document.getElementById("id_" + j).checked = fl;
+		}
+		var mode = "AC";
+		if (mode.toUpperCase() != 'VW') {
+			getPayAmount();
+		}
+	}
+
+	function getPayAmount() {
+
+		var amount = 0;
+					var i = 10;
+				var count = 0;
+
+		for (j = 1; j <= i; j++) {
+			if (document.getElementById("id_" + j).disabled == false) {
+				if (document.getElementById("id_" + j).checked) {
+
+					amount += parseFloat(document.getElementById("id_" + j).value);
+
+					count++;
+				}
+			}
+		}
+		setPayAmount(amount)
+
+		if (count > 1)
+			document.getElementById("amount").disabled = true;
+		else
+			document.getElementById("amount").disabled = false;
+
+	}
+
+	function setPayAmount(amount) {
+
+		var amtBox = document.getElementById("amount");
+		if (amtBox) {
+			amtBox.value = '';
+			amtBox.value = roundNumber(amount, 2);
+		}
+	}
+
+	function payAmount(controler) {
+		frm = document.frmListView;
+		frm.hidPay.value = 1;
+
+		var searchLedger = $("#searchLedger").val();
+		var searchLedgerNameCorp = $("#searchLedgerNameCorp").val();
+		var searchLedgerNameAgent = $("#searchLedgerNameAgent").val();
+
+		var payTypesMode = frm.payTypesMode.value;
+		var payTypes = frm.payTypes.value;
+		var txtAmount = frm.amount.value;
+		var txtCcChequeNo = frm.ccChequeNo.value;
+		var txtReceiptNo = frm.receiptNo.value;
+		var txtDesc = frm.description.value;
+
+					var i = 10;
+		
+		var flag = false;
+		for (j = 1; j <= i; j++) {
+			if (document.getElementById("id_" + j).checked) {
+				flag = true;
+			}
+		}
+
+		if (!flag) {
+			if ((searchLedger == "" || searchLedger == "AGENT" || searchLedger == "CORP")) {
+				var conf = confirm("Invoice not Selected. Do you wish to take ad hoc payment for TA/Corporate?");
+				if (conf) {
+					if (searchLedgerNameCorp == "" && searchLedgerNameAgent == "") {
+						alert("Please select TA/Corporate.")
+						return false;
+					}
+
+					frm.isadhoc.value = 1;
+				} else {
+					alert("Please Select Invoice.");
+					return false;
+				}
+			} else {
+				alert("Please Select Invoice.");
+				return false;
+			}
+		}
+
+		if (frm.isadhoc && frm.isadhoc.value == '1') {
+			if (parseFloat(txtAmount) < 0) {
+				alert("Negative Amount");
+				return false;
+                            }
+                        }
+                        
+                            if(payTypesMode == "") {
+                                    alert("Please Select Payment Mode");
+                                    return false;
+                            }
+
+                            if(payTypes == "")
+                            {
+                                    alert("Please Select Payment Type");
+                                    return false;
+                            }
+
+                            if(txtAmount == "" || parseFloat(txtAmount) == 0) {
+                                    alert("Please Enter Amount");
+                                    return false;
+                            }
+
+                            if(payTypesMode == "cc")
+                            {			
+                                    if(txtCcChequeNo == "")
+                                    {
+                                            alert("Please Enter Credit Card No.");
+                                            return false;
+                                    }			
+                            }
+
+                            if(payTypesMode == "cheque")
+                            {
+                                    if(txtCcChequeNo == "")
+                                    {
+                                            alert("Please Enter Cheque No.");
+                                            return false;
+                                    }			
+                            }
+                        document.getElementById('btnpaynow').disabled = true;
+			frm.action=controler+"/payamount/";
+                        
+			frm.submit();
+                        
+                        oPanelLoadingDiv.show();
+}
+
+function changePaymentDate(controler,paymentDate,fNo,cId){
+   var path= controler+"/changepaydate/";
+   frm = document.frmListView;
+   frm.hidPay.value=1;
+   //var form = document.createElement("form");
+    frm.setAttribute("method", 'POST');
+    frm.setAttribute("action", path);
+    var params ={'folioNo':fNo,'paymentId':cId,'newPaymentDate':paymentDate};
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            var hiddenField = document.createElement("input");
+            hiddenField.setAttribute("type", "hidden");
+            hiddenField.setAttribute("name", key);
+            hiddenField.setAttribute("value", params[key]);
+            frm.appendChild(hiddenField);
+         }
+    }
+
+    
+    frm.submit();
+   
+}
+/**
+ * 
+ * @param {type} clickedButtonObj
+ * @returns {undefined}
+ */
+function exportCsv(clickedButtonObj)
+{
+    // for folio
+    
+    var folioNo =  $(clickedButtonObj).attr("folioNo");
+    var folioMasterId =  $(clickedButtonObj).attr("folioMasterId");
+    var fileType =  $(clickedButtonObj).attr("fileType");
+    
+    var sincType = $("#sortSyncType").val();
+    var fromDate = $("#displayFrom").val();
+    var toDate   = $("#displayTill").val();
+    var searchLedger   = $("#searchLedger").val();
+    var searchLedgerNameCorp   = $("#searchLedgerNameCorp").val();
+    var searchLedgerNamePos   = $("#searchLedgerNamePos").val();
+    var searchLedgerNameAgent   = $("#searchLedgerNameAgent").val();
+    var filterLedger   = $("#filterLedger").val();
+    var pramStr  = '';
+    
+    if(folioMasterId) // for folio
+    {
+       pramStr += "/folioNo/"+folioNo+"/folioMasterId/"+folioMasterId;
+    }
+    else
+    {
+        if(sincType) // for all
+        {
+           pramStr += "/sincType/"+sincType;
+        }
+        
+        if(fromDate !='' && toDate !='')
+        {
+            pramStr += "/fromDate/"+fromDate+"/toDate/"+toDate;
+        }  
+        
+         if(searchLedger !='')
+        {
+            pramStr += '/searchLedger/'+searchLedger;
+        }
+        
+        if(searchLedgerNameCorp !=''){
+            pramStr += '/searchLedgerNameCorp/'+searchLedgerNameCorp;
+        }
+        
+        if(searchLedgerNamePos !='')
+        {
+            pramStr += '/searchLedgerNamePos/'+searchLedgerNamePos;
+        }
+        
+        if(searchLedgerNameAgent !='')
+        {
+            pramStr += '/searchLedgerNameAgent/'+searchLedgerNameAgent;
+        }
+       
+    }
+	if(filterLedger) // for group by filter
+        {
+           pramStr += "/filterLedger/"+filterLedger;
+        }
+	
+    var extraCols = {};
+    $.each($("input[id*='extraCols_']"), function (inx, val){
+        if($(this).is(":checked") == true)
+        {
+            var id = $(this).attr('id').split("_");
+            extraCols[id[1]] = 1;
+        }
+    });
+    
+    if($("input[id*='extraCols_']").length > 0)
+    {
+        console.log(extraCols);
+        var extraColStr = JSON.stringify(extraCols);
+            extraColStr = Base64.urlsafe_b64encode(extraColStr);
+            pramStr += '/extraCols/'+extraColStr;
+    }
+    location.replace("https://12738.hotelogix.net/account/export/exportcsv/"+pramStr+'/fileType/'+fileType);
+    
+}
+function getGrandTotal()
+   {
+       
+	var frm = document.getElementById('frmListView');
+        
+	var searchLedger  = frm.searchLedger.value;
+        var searchLedgerNamePos = frm.searchLedgerNamePos.value;
+        var searchLedgerNameCorp = frm.searchLedgerNameCorp.value;
+        var searchLedgerNameAgent = frm.searchLedgerNameAgent.value;
+        
+        var displayFrom = frm.displayFrom.value;
+        var displayTill = frm.displayTill.value;
+        var sortPosFolioType = frm.sortPosFolioType.value;
+        
+        var sortSyncType =    frm.sortSyncType.value;
+	var searchFolioNo =   frm.searchFolioNo.value;
+	var searchResGrpid =  frm.searchResGrpid.value;
+        
+      postData = "searchLedger="+searchLedger+"&searchLedgerNamePos=" +searchLedgerNamePos+"&searchLedgerNameCorp=" +searchLedgerNameCorp+"&searchLedgerNameAgent="+searchLedgerNameAgent+"&displayFrom="+displayFrom+"&displayTill="+displayTill+"&searchFolioNo="+searchFolioNo+"&searchResGrpid="+searchResGrpid+"&sortPosFolioType="+sortPosFolioType+"&sortSyncType="+sortSyncType;	
+	var sUrl = "https://12738.hotelogix.net/account/hotelledger/grandtotal/";
+	
+	var handleSuccess = function(o) 
+        { 
+             if(o.responseText !== undefined)
+              {
+                document.getElementById("grandToTalFldLoader").style.display='none';
+                document.getElementById("grandToTalFld").style.display='block';          
+                document.getElementById('grandToTalFld').innerHTML = o.responseText;
+              }
+         }
+         var handleFailure = function(o)
+         { 
+           document.getElementById("grandToTalFldLoader").style.display='none';
+           if(o.responseText !== undefined)
+           { 
+               return "Operation Failed";
+           } 
+         }
+         var callback = { 
+                             success:handleSuccess, 
+                             failure: handleFailure, 
+                             argument: { foo:"foo", bar:"bar" } 
+                         };
+                         
+      document.getElementById("grandToTalFldLoader").style.display='block';                   
+      document.getElementById("grandToTalFld").style.display='none';                       
+      var request = YAHOO.util.Connect.asyncRequest('POST', sUrl, callback, postData);
+         
+    }
+   
+$(document).ready(function()
+ {            
+     $("#displayFrom1" ).datepicker({
+         changeMonth: true,
+         changeYear: true,
+         showOn: "button",
+         buttonImage: "https://12738.hotelogix.net/images/calendar.gif",
+         buttonImageOnly: true,
+         buttonText: "Select from date",
+         dateFormat: 'yy-mm-dd',
+         onSelect: function(selectedDate) {
+             $('#displayTill1').datepicker("option", "minDate", selectedDate);
+             if($('#displayTill1').val()=='')
+             {
+                $('#displayTill1').val(selectedDate);
+             }
+         }
+     });
+
+     $("#displayTill1" ).datepicker({
+         changeMonth: true,
+         changeYear: true,
+         showOn: "button",
+         buttonImage: "https://12738.hotelogix.net/images/calendar.gif",
+         buttonImageOnly: true,
+         buttonText: "Select to date",
+         dateFormat: 'yy-mm-dd',
+         onSelect: function(selectedDate) {
+             $('#displayFrom1').datepicker("option", "maxDate", selectedDate);             
+             if(selectedDate < $('#displayFrom1').val())
+             {
+                $('#displayFrom1').val(selectedDate);
+             }
+         }
+     });
+     
+     
+ });
+
+function revokePayment(folioId, parentPaymentId, amount, refType, refId, invoiceId)
+{
+    var conf = confirm("Do you wish to revoke payment?");
+    if(!conf)
+    {
+        return false;
+    }
+    var frm = document.getElementById('frmListView');
+    if(oPanelLoadingDiv)
+    {
+        $("#loadingPanelText").text("Revoke Payment...")
+        oPanelLoadingDiv.show();
+    }
+   
+        postData = "folioId="+folioId+"&parentPaymentId=" +parentPaymentId+"&amount=" +amount+"&refType=" +refType+"&refId=" +refId +"&invoiceId=" +invoiceId;
+	var sUrl = "https://12738.hotelogix.net/account/hotelledger/revokepayment/";
+	var handleSuccess = function(o) 
+        { 
+            if(o.responseText !== undefined)
+            {
+                if(oPanelLoadingDiv)
+                {
+                    oPanelLoadingDiv.hide();
+                }
+                var result = o.responseText;
+                var arrVal = YAHOO.lang.JSON.parse(result);
+                if(arrVal.status == "success")
+                {
+                   frm.action="https://12738.hotelogix.net/account/hotelledger/payamount/";
+                   frm.submit();
+                }
+            }
+         }
+         var handleFailure = function(o)
+         { 
+            if(o.responseText !== undefined)
+            { 
+                return "Operation Failed";
+            } 
+         }
+         var callback = { 
+                            success:handleSuccess, 
+                            failure: handleFailure, 
+                            argument: { foo:"foo", bar:"bar" } 
+                        };
+                         
+                          
+      var request = YAHOO.util.Connect.asyncRequest('POST', sUrl, callback, postData);
+}
+function autoSettlePayment()
+{
+        var conf = confirm("Do you wish to Auto Settle Invoice(s)?");
+        if(!conf)
+        {
+            return false;
+        }
+        
+        var frm = document.getElementById('frmListView');
+        
+        var postData = {};
+                     var i = 10;
+        			
+        var flag=false;
+        for(var j=1; j <= i; j++) 
+        {
+            var refId  = document.getElementById("refId_"+j).value;
+            
+            if(document.getElementById("id_"+j).checked)
+            {
+                var amount  = document.getElementById("id_"+j).value;
+                var fid     = document.getElementById("hidFolioMasterid_"+j).value;
+                var refType = document.getElementById("folioRefType_"+j).value;
+                var folioType = document.getElementById("folioType_"+j).value;
+                
+                if(parseFloat(amount)< 0) 
+                {
+                    alert("Negative Payment can't settle");
+                   return false;
+                }
+                
+                if(refType != "AGENT" && refType != "CORP")
+                {
+                    alert("Auto Settle Only For Agent\Corp");
+                    return false;
+                }
+                if(folioType == "COMM")
+                {
+                    alert("Commision not possible to autosettle");
+                    return false;
+                }
+                
+                if(postData[refId])
+                {
+                    postData[refId][fid] = amount;
+                }
+                else
+                {
+                    postData[refId] = {};
+                    postData[refId][fid] = amount;
+                }
+                
+                flag=true;
+            }
+        }
+        if(!flag)
+        { 
+           alert("Please Select Invoice.");
+            return false; 
+        }
+        
+        var sUrl = "https://12738.hotelogix.net/account/hotelledger/autosettlepayment/";
+	
+	var handleSuccess = function(o) 
+        {
+            if(o.responseText !== undefined)
+            {
+                if(oPanelLoadingDiv)
+                {
+                    oPanelLoadingDiv.hide();
+                }
+                  frm.action="https://12738.hotelogix.net/account/hotelledger/payamount/";
+                  frm.submit();
+            }
+         }
+         var handleFailure = function(o)
+         { 
+           
+           if(o.responseText !== undefined)
+           { 
+               return "Operation Failed";
+           }
+        }
+        var callback = {
+            success: handleSuccess,
+            failure: handleFailure,
+            argument: {foo: "foo", bar: "bar"}
+        };
+        
+        var postStr = $.param({'data':postData});
+        var request = YAHOO.util.Connect.asyncRequest('POST', sUrl, callback, postStr);
+
+}
+
+function totalAdhocAmount()
+{
+        var frm = document.getElementById('frmListView');
+        frm.action="https://12738.hotelogix.net/account/hotelledger/totaladhocpayment/";
+        frm.page.value = 1;
+        frm.offset.value = 1;
+	frm.submit();		
+}
+
+function selSrchOp(type,f='')
+{    
+    $("#"+type+"tbl").toggle(); 
+    if(f!=''){
+     type = type.split("-",1);
+        goSearch(type);
+    }
+} 
+
+function srchRpFun(type)
+{
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("rpSrchCls"+type);     
+    filter = input.value.toUpperCase();
+    
+    ul = document.getElementById("rpSrch"+type);
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {         
+        a = li[i].getElementsByTagName("span")[0]; 
+
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }    
+} 
+
+function selAllOps(type)
+{
+    var inputs, a, i;
+    inputs = document.getElementsByClassName("selOps"+type);
+    for (i = 0; i < inputs.length; i++) {         
+        
+        inputs[i].checked = true;
+    }   
+}
+
+function clearAllOps(type)
+{
+    var inputs, a, i;
+    inputs = document.getElementsByClassName("selOps"+type);
+    for (i = 0; i < inputs.length; i++) {         
+        
+        inputs[i].checked = false;
+    }   
+}
+
+function goSearch(type)
+{
+    var frm = document.getElementById("frmListView");
+    frm.submit();
+}
+
+function revertPayment() {
+	var flag = false;
+	var adhocid = [];
+	$('input.checkboxPayment:checkbox:checked').each(function() {
+		if ($(this).val()) {
+			adhocid.push($(this).val());
+			flag = true;
+		}
+	});
+	if (!flag) {
+		alert("Please Select Checkbox for refund the Ad hoc payment.");
+		return false;
+	}
+	var conf = confirm("Do you wish to refund the Ad hoc payment?");
+	if (!conf) {
+		return false;
+	}
+	$.ajax({
+		type: "POST",
+		url: "https://12738.hotelogix.net/account/hotelledger/revertadhocpayment/",
+		data: "id=" + adhocid,
+		success: function(response) {
+			var dataArray = $.parseJSON(response);
+			if (dataArray.isError == 0) {
+				$('.error').html(dataArray.message);
+				$("#adhoclist").load(window.location + " #adhoclist");
+			} else {
+				$('.error').html(dataArray.message);
+			}
+		}
+	});
+
+}
+
+
+</script><script language="javascript">
+// set Global Current Action Name where xero sync is process    
+var currActionName = '';
+
+var accountType = 'XERO';
+//set Global Value for Total Synced Folios
+var totalSynced = 0;
+//set Global boolean value for current processed folio no is return error
+var prevFolioError = false;
+//set Global value for current processing Folio No
+var currFolioNo = '';
+//set Global Value for redirecting for reconnect to xero
+var waitingTime = 10;
+
+var hotelId = '12738';
+
+var isRequireRefresh = false;
+
+/**
+ * Call this function for Xero Sync
+ * Args: Ex.
+ * step - no of progress step
+ * offset - current offset value for xero sync
+ * limit - max limit of xero sync
+ * typeX - Folio/Invoice Type
+ * refId - Folio/Invoice Ref Id
+ * folioNo - Folio No
+ * @returns {undefined}
+ */
+function syncToXeroAjaxCall(step, offset, limit, typeX, refId, folioNo, CreditNote, updateType)
+{ 
+    currFolioNo = folioNo;
+    var total = $("#totalRecords").val();
+    var totalSteps = Math.ceil(total/limit);
+    var processedInvCount = getCompleteSyncCount();
+    var compRec = parseInt(total-(processedInvCount));
+    var percent = Math.floor(((step-1)/total)*100);
+    var htmlContent = "<br><strong>Processing Folio #:</strong> "+folioNo;
+        if(CreditNote == 1)
+        {
+         htmlContent = "<br><strong>Processing Folio #:</strong> "+folioNo.replace('DEP','CRD');
+        }
+        htmlContent += "<br><strong>Total Selected Invoices:</strong> "+total;
+        htmlContent += "<br><strong>Synced Invoices:</strong> "+processedInvCount;
+        htmlContent += "<br><strong>Remaining Invoices:</strong> "+compRec; 
+    $("#progressText").html(htmlContent);
+    jqueryProgressBar.progressbar.ajaxStartLoading(true,totalSteps,step,percent);
+    $(".ui-dialog").css({top:'175px',position:'fixed'});
+    
+    var id = 0;   
+    
+    var action = "https://12738.hotelogix.net/account//callapi/id/"+id+"/type/"+typeX+"/";
+    var folioType = typeX;
+    if(typeX == 'hotelogix')
+    {
+        folioType = 'hotelogix'; 
+    }
+    
+    var postData = {
+        folioType:folioType,
+        refId:refId,
+        folioNo:folioNo,
+        totalRecords: total,
+        offset: offset,
+        step: step ,
+        creditNote : CreditNote,
+        updateType : updateType
+    };
+    $("#close").hide();
+    
+    ajaxSubmit(action,postData,xeroSyncComplete,"POST","json",false, $(".progress-loading"), xeroSyncError);
+}
+
+
+/**
+ * Call this function for Next Xero Sync Process
+ * Required Args: 
+ * data - Object of Array which require to store these are following type of data
+ *        step - no of progress step
+ *        offset - current offset value for xero sync
+ *        typeX - Folio/Invoice Type
+ *        refId - Folio/Invoice Ref Id
+ *        folioNo - Folio No
+ * limit - Global Value of max limit for xero sync
+ * @returns {undefined}
+ */
+function goForNextSync(data)
+{
+    syncToXeroAjaxCall(data.step, data.offset, limit, data.type, data.refId, data.folioNo , data.creditNote, data.updateType);
+}
+
+/**
+ * This event will be fired(Retry Current Folio) when clicked on Retry Link
+ * @returns {undefined}
+ */
+$("#retry").on("click", function () {
+    $("#offset").val($(this).attr('offset'));
+    $("#step").val($(this).attr('step'));
+    $("#retrydiv").hide();
+    $("#continuediv").hide();
+    $("#buttonsPDiv").hide();  
+    getnextqueuefolio($("#step").val(), $("#offset").val());
+});
+
+/**
+ * This event will be fired(Ignore Current Folio and continue for next folio) when clicked on Continue/Ignore Link
+ * @returns {undefined}
+ */
+$("#continue").on("click", function () {
+    if(parseInt($(this).attr('step')) <= parseInt($("#totalRecords").val()))
+    {
+        $("#offset").val($(this).attr('offset'));
+        $("#step").val($(this).attr('step'));
+        $("#retrydiv").hide();
+        $("#continuediv").hide();
+        $("#buttonsPDiv").hide();  
+        getnextqueuefolio($("#step").val(), $("#offset").val());    
+    }
+    else
+    {
+        var type = "";
+        stopXeroSyncProcess(type);
+    }
+});
+
+/**
+ * This event will be fired when need to close current sync process 
+ * @param {type} type
+ * @returns {undefined} */
+$("#close").on("click", function () {
+    var type = "";
+    stopXeroSyncProcess(type);
+});
+
+/**
+ * Return Completed Synced Folios count
+ * @type Arguments
+ */
+function getCompleteSyncCount()
+{
+    var prevCompletedSyncCount = parseInt($("#done").val());
+    var compCount = (prevCompletedSyncCount+totalSynced);
+    
+    return compCount;
+}
+
+/**
+ * Call this function for stop current sync process
+ * @returns {undefined}
+ */
+function stopXeroSyncProcess(type)
+{
+    var total = $("#totalRecords").val();
+    var compCount = getCompleteSyncCount();
+    if(jqueryProgressBar.progressbar)
+    {
+        jqueryProgressBar.progressbar.ajaxStopLoading();
+    }
+    sessionStorage.setItem("is_reloaded", 0);
+    window.location.href="https://12738.hotelogix.net/account/allledger/showledgerrecords/type/"+type+"/tr/"+total+"/tc/"+compCount;
+}
+
+/**
+ * Set Time out or waiting interval for reconnect to xero
+ * @returns {Number}
+ */
+function connectToXeroAfterInterval(urlRedirect, timeoutInterval)
+{
+    setTimeout(function(){ 
+      window.location.href= urlRedirect;
+    }, (timeoutInterval*1000));
+}
+
+/**
+ * Refresh and show waiting timeout interval
+ * @returns {undefined}
+ */
+function refreshInterval()
+{
+    setInterval(function () {
+        waitingTime -= 1;
+        if(waitingTime >= 0)
+        {
+            $("#timeRefresh").html("<br>You will be redirected to "+accountType+" in <b style='color:#339966;'>"+waitingTime+" seconds</b> to reconnect.<br>");
+            $("#timeRefresh").show();
+        }
+    }, 1000);
+}
+
+/**
+ * Get Next Offset Value
+ * @returns {undefined}
+ */
+function getNextOffsetValue()
+{
+    var offset = $("#offset").val();
+    if(currActionName == 'synctoxero' && prevFolioError == false)
+    {
+        return (parseInt(offset));                
+    }
+    else
+    {
+        return (parseInt(offset)+1);                        
+    }
+}
+
+/**
+ * This function called when synced process is completed and return a response from xero request
+ * @param {jsonObject} data
+ * @returns {undefined}
+ */
+function xeroSyncComplete(data, customLoaderElement)
+{
+    var ignoreAllErrors = false;
+    if($("#ignoreErrors").is(":checked") == true)
+    {
+        ignoreAllErrors = true;
+        if(data.errorCode == 'ERROR')
+        {
+            prevFolioError = true;
+        }
+    }
+
+    if(data.isError == 1 
+            && ((data.errorCode == 'ERROR' && ignoreAllErrors == false) || data.errorCode == 'SESSEXIT'))
+    {
+        if($(customLoaderElement))
+        {
+            $(customLoaderElement).hide();
+        }
+        
+        if(data.errorCode == 'SESSEXIT')
+        {
+            var prevHtmlContent = $("#progressText").html();
+            prevHtmlContent += "<br><br><strong>Error:</strong><br>";
+            prevHtmlContent += "<br><strong>Folio #:</strong> "+currFolioNo;
+            prevHtmlContent += "<br>Current "+accountType+" Session had expired!<br>";
+            $("#progressText").html(prevHtmlContent);
+            var totalRecords = data.totalRecords;
+            var type = data.type;
+            var done = getCompleteSyncCount();
+            var urlRedirect = "https://hotelogix.net/account//index/type/"+type+"/totalRecords/"+totalRecords+"/step/"+data.step+"/offset/"+data.offset+"/cnt/allledger/act/"+currActionName+"/done/"+done+'/hotelIdX/'+hotelId;
+            
+            $("#timeRefresh").html("<br>You will be redirected to "+accountType+" in <b style='color:#339966;'>"+waitingTime+" seconds</b> to reconnect.<br>");
+            $("#timeRefresh").show();
+            refreshInterval();        
+            connectToXeroAfterInterval(urlRedirect, 10);
+            sessionStorage.setItem("is_reloaded", 0);
+        }
+        else if(data.errorCode == 'ERROR')
+        {
+            if(data.updateType == 'SYNCTAXRATE')
+            {
+                data.updateType = 'SYNC';
+                data.isAutomateSync = 1;
+                console.log(data);
+                maptaxinxero(0, '', data.taxIds, '', '', '', '', '', 0, data.taxCode, '', data.taxCode, 1, data);
+            }
+            else
+            {
+                ajaxError(data);
+            }
+        }
+    }
+    else if(data.isError == 0 && data.updateType == 'SYNC')
+    {
+        getnextqueuefolio($("#step").val(), $("#offset").val(), data.creditNote, data.updateType);
+    }
+    else if(data.isError == 0 || (data.isError == 1 && ignoreAllErrors == true))
+    {
+        if(data.errorCode != 'FOLIO_NOT_FOUND'
+                && data.isError == 0)
+        {
+            totalSynced += 1; 
+            prevFolioError = false;
+        }
+        
+        if(parseInt(data.totalRecords) <= parseInt(data.step))
+        {
+            stopXeroSyncProcess(data.type);
+        }
+        else
+        {
+            var newOffset = getNextOffsetValue(); 
+            var newStep = parseInt($("#step").val())+1;
+            $("#offset").val(newOffset);
+            $("#step").val(newStep);
+            $("#creditNote").val(data.creditNote);
+            getnextqueuefolio($("#step").val(), $("#offset").val(), data.creditNote, data.updateType);  
+        }
+    }
+}
+
+/**
+ * Call this function when ajax request submit getting a error
+ * @param {jsonObject} jqXHR
+ * @param {string} txtStatus
+ * @param {string} exception
+ * @param {jsonObject} postData
+ * @returns {undefined} */
+function xeroSyncError(jqXHR, txtStatus, exception, postData)
+{
+    var data = {
+        errorMessage:'~~'+accountType+' Sync Error: Status Code - '+jqXHR.status+' Error - '+exception+'~~Please try again.',
+        offset:postData.offset,
+        step:postData.step ,
+        creditNote:postData.creditNote,
+        updateType:postData.updateType
+    };
+    
+    ajaxError(data);
+}
+
+
+/**
+ * Call when ajax given a error
+ * @param {jsonObject} data
+ * @returns {undefined} */
+function ajaxError(data)
+{ 
+    prevFolioError = true;
+    $("#close").show();
+    var prevHtmlContent = $("#progressText").html();
+    prevHtmlContent += "<br><br><strong>Error:</strong><br>";   
+    
+    if(data.creditNote == 1)
+    {   
+     prevHtmlContent += "<br><strong>Folio#:</strong> "+currFolioNo.replace('DEP','CRD');
+    }
+    else
+    {
+     prevHtmlContent += "<br><strong>Folio#:</strong> "+currFolioNo;
+    }
+    if(data.errorMessage != '')
+    {
+        var errorMessage = data.errorMessage;
+        errorMessage = errorMessage.replace(/~~/g,'<br>');
+        prevHtmlContent += errorMessage;
+    }
+    
+    $("#progressText").html(prevHtmlContent);
+    $("#retry").attr({offset:data.offset,step:data.step});
+    var isDeposit = (data.isDeposit)?data.isDeposit:0 ;
+    if(isDeposit != 1)
+    {
+        $("#retrydiv").show();
+    }
+    $("#continue").attr({offset:getNextOffsetValue(),step:(parseInt(data.step)+1)});
+    $("#continuediv").show();
+    $("#buttonsPDiv").show();    
+}
+/**
+ * Call this function for submit a action with ajax request 
+ * @param {string} action
+ * @param {jsonObject} postData
+ * @param {functionName} successFunc
+ * @param {string} postType
+ * @param {string} dataType
+ * @param {boolean} isFile
+ * @param {htmlElement} customLoaderElement
+ * @returns {undefined} */
+function ajaxSubmit(action, postData, successFunc, postType, dataType, isFile, customLoaderElement, errorFunc)
+{
+        if($(customLoaderElement))
+        {
+            $(customLoaderElement).show();
+        }
+        
+        $.ajax({
+            url: action,
+            timeout: 200000,
+            type: (postType)?postType:"POST",
+            dataType: (dataType)?dataType:"json",
+            customLoaderElement: (customLoaderElement),
+            data: postData,
+            crossDomain: (dataType=='jsonp')?true:false,
+            processData: (isFile==true)?false:true, // Don't process the files
+            contentType: (isFile==true)?false:'application/x-www-form-urlencoded; charset=UTF-8',
+            dataFilter: function (jsonString, dataType) {
+                if($(customLoaderElement))
+                {
+                    $(customLoaderElement).show();
+                }
+                if (dataType == "json" || dataType == "text" ) {
+
+                    if(jsonString!='')
+                    {
+                        var data =  jsonString.replace(/<(.+)>/gm,'');
+                        var data =  $.trim(data.replace(/-->/gm,''));
+                        return data;
+                    }
+
+                }
+                return jsonString;
+            },
+           
+            error: function (jqXHR, txtStatus, exception) {
+                console.log('Response Code: '+jqXHR.status+'\n '+txtStatus+'\n '+exception+' Occured.');
+                if($(customLoaderElement))
+                {
+                    $(customLoaderElement).hide();
+                }
+                if(typeof errorFunc != 'undefined' 
+                        && jQuery.isFunction(errorFunc) == true)
+                {
+                    var callback = $.Callbacks();
+                        callback.add(errorFunc);
+                        callback.fire(jqXHR, txtStatus, exception, postData);
+                }
+            },
+            
+            success: function( data ) {
+
+                if(data != null
+                        &&  jQuery.isFunction(successFunc) == true)
+                {
+                    var callback = $.Callbacks();
+                    callback.add(successFunc);
+                    callback.fire(data, customLoaderElement);
+                    /*if(dataType == 'html' || dataType == 'HTML')
+                    {
+                        callback.add();
+                        callback.fire();
+                    }*/
+                }
+                
+            }
+        });
+    
+};
+function xeroAccountCodeAjaxCall(actionType,accCode,accName,accType,accCodeId,id, isDefault)
+{
+    $(".error").html('');
+    var action = "https://12738.hotelogix.net/account/chartofacc/callapi";
+    var postData = '';
+    var xeroSuccFunction = '';
+    
+    postData = {
+        actionType: actionType,
+        accCode: accCode,
+        accName: accName,
+        accType: accType,
+        accId: accCodeId,
+        id: id,
+        isDefault: isDefault
+    };
+    
+    if(actionType == 'create')
+    {
+        xeroSuccFunction = xeroCreateAccCode;
+    }
+    
+    ajaxSubmit(action,postData,xeroSuccFunction,"POST","json",false, $(".progress-loading"), xeroAccCodeError);
+}
+
+$("#connectToXERO").on("click", function() {
+    window.location.href="https://hotelogix.net/account/xeroaccount/index/hotelIdX/"+hotelId+"/cnt/chartofacc/act/index/type/";
+    
+});
+
+$("#connectToTALLY").on("click", function() {
+    var actionUrl = "https://12738.hotelogix.net/account/tallyaccount/index/hotelIdX/"+hotelId+"/cnt/chartofacc/act/index/type/";
+    var serverIP = $(this).attr('serverIP');
+    var serverPort = $(this).attr('serverPort');
+    var isDynamicIP = $(this).attr('isDynamicIP');
+    if(isDynamicIP == 1)
+    {
+        doDynamicAuth(actionUrl, serverIP, serverPort);
+    }
+    else
+    {
+        window.location.href=actionUrl;
+    }
+    
+});
+
+$("#connectToTPA").on("click", function() {
+    window.location.href="https://12738.hotelogix.net/account/tpaaccount/index/hotelIdX/"+hotelId+"/cnt/chartofacc/act/index/type/";
+    
+});
+
+/**
+ * This function called when xero account code add or update or delete and return a response from xero request
+ * @param {jsonObject} data
+ * @returns {undefined}
+ */
+function xeroCreateAccCode(data, customLoaderElement)
+{
+    var html = '';
+    
+    $(customLoaderElement).hide();
+     
+    if(data.errorCode == 'SESSEXIT')
+    {
+        alert(accountType+' session expired');
+        window.location.href = "https://hotelogix.net/account//index/hotelIdX/"+hotelId+"/cnt/chartofacc/act/"+currActionName+"/type/assets";
+    }
+    
+    if(data.isError == 1)
+    {
+        html = html+'- ERRORS<br/>' 
+        html = html+'- '+data.data.type+'<br/>' 
+    
+        if(data.data.errormsg.length > 0)
+        {
+            for(var i= 0;i<data.data.errormsg.length;i++)
+            {
+                html = html + '- '+data.data.errormsg[i]+'<br/>';
+            }
+        }
+    }
+    else 
+    {
+        isRequireRefresh = true;
+        html = html+' Account Code'+'"'+data.data.Code+'"'+' Successfully Created In '+accountType+'<br/>' 
+        var currPopUpUrl = 'https://12738.hotelogix.net/account/hotelledger/popup/id/'+data.data.id+'/xid/'+data.data.AccountID;
+        
+        
+        var anchorTag = '<a href="javascript:;" onclick="return MM_openBrWindow(\''+currPopUpUrl+'\',\'\',\'scrollbars=yes,width=700,height=350\');">Modify</a>';
+        if(data.data.isDefault == 0)
+        {
+            anchorTag += '/ &nbsp;<a href="javascript:void(0);" onclick="deleteAccount(\''+data.data.id+'\',\''+data.data.Type+'\');">Delete In Hotelogix</a>';
+        }
+        $("#create_"+data.data.id).html(anchorTag);
+    }
+    
+    $(".error").html(html);
+    return false;
+}
+
+function updateInHotelogix(popUpUrl)
+{
+    MM_openBrWindow(popUpUrl,'','scrollbars=yes,width=700,height=350');
+}
+
+/**
+ * This function called when xero account code add or update or delete and return a response from xero request
+ * @param {jsonObject} data
+ * @returns {undefined}
+ */
+function xeroAccCodeError(jqXHR, txtStatus, exception, postData)
+{
+    var data = {
+        errorMessage:'~~'+accountType+' Sync Error: Status Code - '+jqXHR.status+' Error - '+exception+'~~Please try again.',
+        offset:postData.offset,
+        step:postData.step
+    };
+    
+    ajaxError(data);
+}
+
+
+function mapTaxInAccount(id, code, mappingTax, mappedTax, xeroAccountId, accountName, accountType, isDefault)
+{
+    if(mappingTax != '' || mappedTax != '')
+    {
+        $(".error").html("");
+        $("#viewTaxes_"+id).dialog({modal: true,
+                 closeOnEscape: false,
+                 minHeight:100,
+                 minWidth:250,
+                 width:550,
+                 height:400,
+                 resizable:false,
+                 autoOpen: false,
+                 create: function () {
+                   $(".ui-dialog").css({"z-index":"10000"});  
+                 },
+                 buttons:[
+                     {
+                         id: 'mapTaxInXero',
+                         text: "Sync in Xero",
+                         click: function() {
+
+                             maptaxinxero(id, code, mappingTax, mappedTax, xeroAccountId, accountName, accountType, isDefault, 0);
+                         }
+                    },
+                    {
+                         id: 'cancel',
+                         text: "Cancel",
+                         click: function() {
+                             $("#viewTaxes_"+id).dialog('close'); 
+                         }
+                    }
+             ]
+        });
+        $("#viewTaxes_"+id).dialog('open'); 
+    }
+}
+
+function maptaxinxero(id, code, mappingTax, mappedTax, xeroAccountId, accountName, accountType, isDefault, isDeleteMap, xeroTaxRateName, xeroTaxType, taxCode, isDefaultTax, data1)
+{
+    var html = '';
+    
+    if($("#mapStatusHid_"+id).length > 0)
+    {
+        if($("#mapStatusHid_"+id).val() == 1
+                && $("#taxID_"+code).val() == '')
+        {
+            html = 'Please select mapped Tax Rate.';
+            $(".error1, .error").html(html);
+            return false;
+        }
+    }
+    
+    if(typeof xeroTaxRateName !== 'undefined' && xeroTaxRateName != '')
+    {
+        var taxComponentName = xeroTaxRateName;
+    }
+    else
+    {
+        var taxComponentName = $("#taxComponentName_"+code).val(); 
+        if(taxComponentName == '')
+        {
+            html = 'Please enter Xero Tax Rate name.';
+            $(".error1, .error").html(html);
+            return false;
+        }
+    }
+  
+    var actionUrl = 'https://12738.hotelogix.net/account/chartofacc/maptaxinxero';
+    var taxType = (typeof xeroTaxType !== 'undefined' && xeroTaxType!='')?xeroTaxType:$("#taxID_"+code).val();
+
+    
+    var isAutomate = 0;
+    if(typeof data1 !== 'undefined' && data1.isAutomateSync == 1)
+    {
+        isAutomate = data1.isAutomateSync;
+        $(".progress-loading-pop").css({top:'-22px',left:'-155px'});
+        $(".progress-loading-pop").show();
+    }
+    else
+    {
+        $("#loadingPanelText").html("Create Tax Rate in Xero....");
+        $("#PanelModalWait_c").css({'z-index':'99999'});
+        $("#PanelModalWait_mask").css({'z-index':'101'});
+        oPanelLoadingDiv.show();
+    }
+    $.ajax({
+        url: actionUrl,
+        type: "POST",
+        dataType: "json",
+        data: {accountCode:code,taxIds:mappingTax,id:id,xeroTaxName:taxComponentName,accountType:accountType,accountName:accountName,xid:xeroAccountId,isDeleteMap:isDeleteMap,taxType:taxType,isDefaultTax:isDefaultTax,isAutomate:isAutomate},
+        error: function(jqXHR, exception) {
+
+           // alert('Something went wrong. Please try again later.');
+
+        },
+        success: function(data) {
+            if(typeof data1 !== 'undefined' && data1.isAutomateSync)
+            {
+                $(".progress-loading-pop").hide();
+            }
+            else
+            {
+                oPanelLoadingDiv.hide();
+            }
+           
+
+            if(data.error == 1 && data.xeroSessionExpired == 1)
+            {
+
+                alert('Xero session has expired! Please try again!');
+                window.location.href = "https://hotelogix.net/account//index/hotelIdX/"+hotelId+"/cnt/chartofacc/act/index/type/assets";
+            }
+            
+            if(typeof data1 !== 'undefined' && data1.isAutomateSync)
+            {
+                if(data.error == 1)
+                {
+                    if(data.error == 1)
+                    {
+                        var compRec = parseInt(data1.total)-parseInt(data1.processedCnt);
+                        html = "<br><strong>Processing Tax Rate #:</strong> "+data1.taxRateName;
+                        if(data1.isDefault != 1)
+                        {
+                            html += "<br><strong>Account Code:</strong> "+data1.accountCode;
+                        }
+                        html += "<br><strong>Total Tax Rate:</strong> "+data1.total;
+                        html += "<br><strong>Synced Tax Rate:</strong> "+data1.processedCnt;
+                        html += "<br><strong>Remaining Tax Rate:</strong> "+compRec; 
+                        
+                        html = html+'<br/>- ERRORS<br/>' 
+                        if(data.errorMessage.length > 0)
+                        {
+                            html = html + '- '+data.errorMessage+'<br/>';
+                        }
+                    }
+                    $("#dataTaxRate").val(JSON.stringify(data1));
+                    $("#retryTaxRate").attr({total:data1.total,compCnt:data1.processedCnt,step:(parseInt(data1.step)-1)});
+                    $("#continueTaxRate").attr({total:data1.total,compCnt:data1.processedCnt,step:data1.step});
+                    $("#closeTaxRate").attr({total:data1.total,compCnt:data1.processedCnt,step:data1.step});
+                    $("#retrydiv").show();
+                    $("#continuediv").show();
+                    $("#buttonsPDiv").show();    
+                }
+                else
+                {
+                    if(data1.folioNo != '' && data1.updateType=='SYNC')
+                    {
+                        data1.isError = 0;
+                        data1.errorCode = '';
+                        xeroSyncComplete(data1, $(".progress-loading"));
+                    }
+                    else
+                    {
+                        data1.processedCnt = (parseInt(data1.processedCnt) + 1);
+                        $("#dataTaxRate").val(JSON.stringify(data1));
+                        $("#continueTaxRate").attr({total:data1.total,compCnt:data1.processedCnt,step:data1.step});
+                        $("#closeTaxRate").attr({total:data1.total,compCnt:data1.processedCnt,step:data1.step});
+                        getnextqueuetaxrate(data1);
+                    }
+                }
+                
+                $("#progressText").html(html);
+            }
+            else
+            {
+                if(data.error == 1)
+                {
+                    html = html+'- ERRORS<br/>' 
+                    if(data.errorMessage.length > 0)
+                    {
+                        html = html + '- '+data.errorMessage+'<br/>';
+
+                        if(html.indexOf("is not a valid tax type for the account") >= 0)
+                        {
+                            var confirmText = "'"+data.taxType+"' is deleted from Xero.\n Are you wish to delete mapped tax rate from hotelogix?";
+                            if(confirm(confirmText))
+                            {
+                                maptaxinxero(id, code, mappingTax, mappedTax, xeroAccountId, accountName, accountType, isDefault,1);
+                            }
+                        }
+                        else if(html.indexOf("Taxes are deleted or inactive from hotelogix.") >= 0)
+                        {
+                            var confirmText = "Taxes are deleted or inactive from hotelogix.\n Are you wish to delete mapped tax rate from hotelogix?";
+                            if(confirm(confirmText))
+                            {
+                                maptaxinxero(id, code, mappingTax, mappedTax, xeroAccountId, accountName, accountType, isDefault,1);
+                            }
+                        }
+                        
+                        var mapStatus = '';
+                        if(data.isCreatedTax == 1 && data.isMappedTax == 1)
+                        {
+                            mapStatus = '*Tax Component mapped.';
+                            $("#mapStatus_"+id).css({"color":"#01BD15","font-weight":"bold"});
+
+                        }
+                        else if(data.isCreatedTax == 1 && data.isMappedTax == 0)
+                        {
+                            $("#mapStatus_"+id).css({"color":"#F86A6A","font-weight":"bold"});
+                            mapStatus = '*Tax Rate is created in xero but not mapped.';
+                        }
+                        else
+                        {
+                            $("#mapStatus_"+id).css({"color":"#F86A6A","font-weight":"bold"});
+                            mapStatus = '*Tax Component not mapped.';
+                        }
+                        $("#mapStatus_"+id).html(mapStatus);
+                        if($("#mappedTaxType_"+id).length > 0)
+                        {
+                            $("#mappedTaxType_"+id).html(data.taxType);
+                        }
+                    }
+                }
+                else 
+                {
+                    if($("#viewTaxes_"+id))
+                    {
+                        $("#viewTaxes_"+id).dialog("close");
+                    }
+
+                    if(taxCode != '')
+                    {
+                        $("#xeroTaxTypName_"+code+taxCode).html(taxComponentName);
+                        $("#actionStatus_"+code+taxCode).show();
+                        $("#createTaxRate_"+code+taxCode).hide();
+                    }
+
+                    if(isDefaultTax)
+                    {
+                        html = html+' Tax Rate ('+'"'+taxComponentName+'"'+') Successfully mapped in Xero'; 
+                    }
+                    else
+                    {
+                        html = html+' Account Code ('+'"'+code+'"'+') and Tax Component Successfully mapped in Xero'; 
+                    }
+                    if(data.xeroAccountID != '')
+                    {
+                        var currPopUpUrl = 'https://12738.hotelogix.net/account/hotelledger/popup/id/'+id+'/xid/'+data.xeroAccountID;
+                        var anchorTag = '<a href="javascript:;" onclick="return MM_openBrWindow(\''+currPopUpUrl+'\',\'\',\'scrollbars=yes,width=700,height=350\');">Modify</a>';
+                            anchorTag += '&nbsp;|&nbsp;<a href="javascript:void(0);" onclick="deleteAccount(\''+id+'\',\''+accountType+'\');">Delete In Hotelogix</a>';
+                        var anchorTag1 = '&nbsp;|&nbsp;<a href="javascript:void(0);" class="xeroBtn" onclick="mapTaxInAccount(\''+id+'\',\''+code+'\',\''+mappingTax+'\',\''+mappedTax+'\',\''+data.xeroAccountID+'\',\''+accountName+'\',\''+accountType+'\',\''+isDefault+'\');">Sync Taxes</a>';
+                        $("#create_"+id).html(anchorTag);
+                        if($("#createTax_"+id).length > 0)
+                        {
+                            $("#createTax_"+id).html(anchorTag1);
+                        }
+
+                        var mapStatus = '';
+                        if(data.isCreatedTax == 1 && data.isMappedTax == 1)
+                        {
+                            mapStatus = '*Tax Component mapped.';
+                            $("#mapStatus_"+id).css({"color":"#01BD15","font-weight":"bold"});
+
+                        }
+                        else if(data.isCreatedTax == 1 && data.isMappedTax == 0)
+                        {
+                            $("#mapStatus_"+id).css({"color":"#F86A6A","font-weight":"bold"});
+                            mapStatus = '*Tax Rate is created in xero but not mapped.';
+                        }
+                        else
+                        {
+                            $("#mapStatus_"+id).css({"color":"#F86A6A","font-weight":"bold"});
+                            mapStatus = '*Tax Component not mapped.';
+                        }
+                        $("#mapStatus_"+id).html(mapStatus);
+                        if($("#mappedTaxType_"+id).length > 0)
+                        {
+                            $("#mappedTaxType_"+id).html(data.taxType);
+                        }
+                    }
+
+                }
+                
+                $(".error").html(html);
+            }
+
+        }
+    });
+}
+function taxDesc(code,ele)
+{ 
+    if(ele.value != '')
+    {   
+        var taxName = ele.options[ele.selectedIndex].getAttribute('taxname');
+        document.getElementById('taxComponentName_'+code).value = taxName;
+        var taxSel = JSON.parse(ele.options[ele.selectedIndex].getAttribute('taxes'));
+        var taxVal = ele.options[ele.selectedIndex].text;
+        var taxType = ele.options[ele.selectedIndex].value;
+        var html= '';
+        if(taxSel.length > 0)
+        {
+            html= '<ul>';
+            for(var i=0; i < taxSel.length; i++)
+            {
+                html+= '<li>'+taxSel[i].taxName;
+                html+= '('+taxSel[i].taxRate+'%)'+'</li>';
+            }
+            html += '</ul>';
+        }
+        if(taxVal != '')
+        {
+
+            document.getElementById('selectedTaxType_'+code).innerHTML = taxType;
+            document.getElementById('taxDesp_'+code).style.display = 'block';
+            document.getElementById('taxDesp1_'+code).style.display = 'block';
+            if(html != '')
+            {
+                document.getElementById('selectedTaxComponents_'+code).innerHTML = html;
+            }
+        }
+    }
+    else
+    {
+        document.getElementById('taxComponentName_'+code).value='';
+        document.getElementById('taxDesp_'+code).style.display = 'none';
+        document.getElementById('taxDesp1_'+code).style.display = 'none';
+    }
+    
+}
+
+$("a[id*=createTaxRate_]").on('click', function () {
+    var actionUrl = 'https://12738.hotelogix.net/account/chartofacc/maptaxinxero';
+    var taxCode = $(this).attr('taxcode');
+    var accountcode = $(this).attr('accountcode');
+    if($("#taxRateName_"+accountcode+taxCode) && $("#taxRateName_"+accountcode+taxCode).attr("isselect") == 1)
+    {
+        var optObj = $("#taxRateName_"+accountcode+taxCode).find(":selected");
+        var accountCode = $(optObj).attr('accountcode');
+        var xaid = $(optObj).attr('xaid');
+        var taxIds = $(optObj).attr('taxids');
+        var taxCode = $(optObj).attr('taxcode');
+        var taxRateName = $(optObj).attr('taxratename');
+        var accountId = $(optObj).attr('accountId');
+        var accountType = $(optObj).attr('accountType');
+        var accountName = $(optObj).attr('accountName');
+        var isDefault = $(optObj).attr('isDefault');
+        var dtax = $(optObj).attr('dtax');
+        var taxType = $("#taxRateName_"+accountcode+taxCode).val();
+    }
+    else
+    {
+        var accountCode = $("#taxRateName_"+accountcode+taxCode).attr('accountcode');
+        var taxIds = $("#taxRateName_"+accountcode+taxCode).attr('taxids');
+        var taxCode = $("#taxRateName_"+accountcode+taxCode).attr('taxcode');
+        var taxRateName = $("#taxRateName_"+accountcode+taxCode).val();
+        var accountId = $("#taxRateName_"+accountcode+taxCode).attr('accountId');
+        var accountType = $("#taxRateName_"+accountcode+taxCode).attr('accountType');
+        var accountName = $("#taxRateName_"+accountcode+taxCode).attr('accountName');
+        var isDefault = $("#taxRateName_"+accountcode+taxCode).attr('isDefault');
+        var xaid = $("#taxRateName_"+accountcode+taxCode).attr('xaid');
+        var dtax = $("#taxRateName_"+accountcode+taxCode).attr('dtax');
+        var taxType = '';
+    }
+    maptaxinxero(accountId, accountCode, taxIds, null, xaid, accountName, accountType, isDefault,0,taxRateName,taxType,taxCode,dtax);
+});
+
+$("#closeTaxRate").on("click", function () {
+    var data = {
+        total: $(this).attr("total"),
+        processedCnt: $(this).attr("compCnt")
+    }
+    stopXeroTaxRateSyncProcess(data);
+});
+
+$("#retryTaxRate").on("click", function () {
+    $("#retrydiv").hide();
+    $("#continuediv").hide();
+    $("#buttonsPDiv").hide();  
+    var data = $("#dataTaxRate").val();
+    data = $.parseJSON(data);
+    data.step = $(this).attr('step');
+    data.total = $(this).attr('total');
+    data.processedCnt = $(this).attr('compCnt');
+    getnextqueuetaxrate(data);
+});
+
+/**
+ * This event will be fired(Ignore Current Folio and continue for next folio) when clicked on Continue/Ignore Link
+ * @returns {undefined}
+ */
+$("#continueTaxRate").on("click", function () {
+    if(parseInt($(this).attr('step')) <= parseInt($(this).attr('total')))
+    {
+        $("#retrydiv").hide();
+        $("#continuediv").hide();
+        $("#buttonsPDiv").hide();  
+        var data = $("#dataTaxRate").val();
+        data = $.parseJSON(data);
+        var data = $("#dataTaxRate").val();
+        data = $.parseJSON(data);
+        data.step = $(this).attr('step');
+        data.total = $(this).attr('total');
+        data.processedCnt = $(this).attr('compCnt');
+        getnextqueuetaxrate(data);    
+    }
+    else
+    {
+        var data = $("#dataTaxRate").val();
+        data = $.parseJSON(data);
+        stopXeroSyncProcess(data);
+    }
+});
+
+$("#updateStockItems").on("click", function (){
+    $(".error").html('');
+    if(confirm('Do you really want to update stock items?'))
+    {
+        var action = "https://12738.hotelogix.net/account/allledger/updatestocklist/callapi";
+        postData = {
+            
+        };
+
+        ajaxSubmit(action,postData,stockItemSuccess,"POST","json",false, $(".progress-loading-main"), stockItemError);
+    }
+});
+
+function stockItemSuccess(data, customLoaderElement)
+{
+    $(customLoaderElement).hide();
+    $(".errorN").html(data.message);
+    $(".errorN").show();
+    return false;
+}
+
+function stockItemError(jqXHR, txtStatus, exception, postData)
+{
+    $(".errorN").html('Status Code - '+jqXHR.status+' Error - '+exception);
+    $(".errorN").show();
+    return false;
+}
+</script><script language="javascript">
+
+function handleSelect(type,args,obj) { 
+	    var dates = args[0]; 
+	    var date = dates[0]; 
+	    var year = date[0], month = date[1], day = date[2];
+	    if (parseInt(day)<10) day='0'+day;
+	    if (parseInt(month)<10) month='0'+month;
+    	var txtDate1 = document.getElementById("displayFrom"); 
+    	txtDate1.value = year+"-"+month+"-"+day;
+        //--Check if to date is greater then from date
+        var toDateTime = new Date(document.getElementById("displayTill").value);
+        var fromDateTime = new Date(year + "-" + month + "-" + day);
+        if (fromDateTime.getTime() > toDateTime.getTime())
+        {
+            document.getElementById("displayTill").value = year + "-" + month + "-" + day;
+        }
+       //-------------------------------------------------//
+    	obj.hide();
+	}
+function handleSelect2(type,args,obj) { 
+	    var dates = args[0]; 
+	    var date = dates[0]; 
+	    var year = date[0], month = date[1], day = date[2]; 
+    	var txtDate1 = document.getElementById("displayTill"); 
+	    if (parseInt(day)<10) day='0'+day;
+	    if (parseInt(month)<10) month='0'+month;
+    	txtDate1.value = year+"-"+month+"-"+day;  
+        //--Check if to date is less then from date then we need to assign to date to from date field
+        var fromDateTime = new Date(document.getElementById("displayFrom").value);
+        var toDateTime = new Date(year + "-" + month + "-" + day);
+        if (fromDateTime.getTime() > toDateTime.getTime())
+        {
+            document.getElementById("displayFrom").value = year + "-" + month + "-" + day;
+        }
+       //-------------------------------------------------//  
+    	obj.hide();
+	} 
+    function handleSelectPayment(type,args,obj) {        
+	    var dates = args[0]; 
+	    var date = dates[0]; 
+	    var year = date[0], month = date[1], day = date[2]; 
+    	var txtDate1 = document.getElementById("paymentDate"); 
+	    if (parseInt(day)<10) day='0'+day;
+	    if (parseInt(month)<10) month='0'+month;
+    	txtDate1.value = year+"-"+month+"-"+day;   
+    	obj.hide();
+	}
+   function setLedgerName(obj)
+   {
+		var pos = document.frmListView.searchLedgerNamePos;
+		var corp = document.frmListView.searchLedgerNameCorp;
+		var agent = document.frmListView.searchLedgerNameAgent;
+		
+		
+		var nameTd = document.getElementById('ledNameId');
+		var fromPosList = document.getElementById('fromPosList');
+		var sortPosFolioTypeTDId = document.getElementById('sortPosFolioTypeTDId');
+		var folioTypeTd1 = document.getElementById('folioTypeTd1');
+		var folioTypeTd2 = document.getElementById('folioTypeTd2');
+		
+		
+		
+		
+		pos.style.display='none';
+		corp.style.display='none';
+		agent.style.display='none';
+		sortPosFolioTypeTDId.style.display='none';
+		folioTypeTd1.style.display='none';
+		folioTypeTd2.style.display='none';
+		
+		pos.value='';
+		corp.value='';
+		agent.value='';
+		nameTd.innerHTML='';
+			
+		if(obj.value=='POS')
+		{
+			nameTd.style.display='';
+			nameTd.innerHTML='Name:';
+			pos.style.display='';
+			sortPosFolioTypeTDId.style.display='';
+                        folioTypeTd1.style.display='none';
+                        folioTypeTd2.style.display='none';
+		}
+		else if(obj.value=='CORP')
+		{
+			nameTd.style.display='';
+			nameTd.innerHTML='Name:';
+			corp.style.display='';
+                        folioTypeTd1.style.display='';
+                        folioTypeTd2.style.display='';
+			
+		}
+		else if(obj.value=='AGENT')
+		{
+			nameTd.style.display='';
+			nameTd.innerHTML='Name:';
+			agent.style.display='';
+                        folioTypeTd1.style.display='';
+                        folioTypeTd2.style.display='';
+		}
+                document.frmListView.page.value = 1;
+                document.frmListView.offset.value = 1;
+		
+   }
+   
+   function changepagelocation(prevValue,valElem)
+   {
+       var newValue = valElem.value;
+       if(newValue != prevValue)
+       {
+           frmListView.offset.value = 1;
+       }
+   }
+    
+   $("#sendMail").on('click', function () {
+       var jsonPostData = {};
+       var isChecked = false;
+       var j = 0
+       $.each($("input[name*=payChkBox]"), function (index, value) {
+          var idIndex = $(this).attr('id').split("_")[1]; 
+          
+          if($(this).is(":checked") == true)
+          {
+              isChecked = true;
+              jsonPostData[j] = $("#hidFolioMasterid_"+idIndex).val();
+              j++;
+          }
+         // console.log(idIndex);
+       });
+       //console.log(jsonPostData);
+       if(isChecked == true)
+       {
+            $("#sendMailDialog").dialog({modal: true,
+                     closeOnEscape: false,
+                     minHeight:200,
+                     minWidth:350,
+                     resizable:false,
+                     autoOpen: false,
+                     buttons:[
+                         {
+                             id: 'sendM',
+                             text: "Send Mail",
+                             click: function() {
+                                 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+                                 if($("#txtName").val() == "")
+                                 {
+                                     $("#msgErr").html("Please enter Valid Name.");
+                                     $("#msgErr").show();
+                                 }
+                                 else if($("#txtEmail").val() == ""
+                                         || !emailReg.test($("#txtEmail").val()))
+                                 {
+                                     $("#msgErr").html("Please enter Valid Email.");
+                                     $("#msgErr").show();
+                                 }
+                                 else
+                                 {
+                                    var name = $("#txtName").val();
+                                    var email = $("#txtEmail").val();
+                                    var msgContent = $("#txtMsg").val();
+                                    var searchLedger = $("#searchLedger").val(); 
+                                    var searchLedgerNamePos = $("#searchLedgerNamePos").val(); 
+                                    var sortPosFolioType = $("#sortPosFolioType").val(); 
+                                    var actionUrl = 'https://12738.hotelogix.net/account/hotelledger/sendmailaccount';
+                                    $(".ui-dialog").css({'z-index':'100'});
+                                    $("#loadingPanelText").html("Send Invoices to mail....");
+                                    $("#PanelModalWait_c").css({'z-index':'999'});
+                                    $("#PanelModalWait_mask").css({'z-index':'101'});
+                                    oPanelLoadingDiv.show();
+                                    $.ajax({
+                                        url: actionUrl,
+                                        type: "POST",
+                                        data: {name:name,email:email,msg:msgContent,foliomasterids:jsonPostData,searchLedger:searchLedger,searchLedgerNamePos:searchLedgerNamePos,sortPosFolioType:sortPosFolioType},
+                                        error: function(jqXHR, exception) {
+                                            
+                                            alert('Something went wrong. Please try again later.');
+
+                                        },
+                                        success: function(data) {
+                                             oPanelLoadingDiv.hide();
+                                            $(".ui-dialog").css({zIndex:101});
+                                            $("#PanelModalWait_mask").css({zIndex:91});
+                                            $("#PanelModalWait_c").css({zIndex:92});
+                                            $("#txtName").val("");
+                                            $("#txtEmail").val("");
+                                            $("#msgErr").val("");
+                                            $("#txtMsg").val("");
+                                            $("#sendMailDialog").dialog("close");
+                                            alert("Mail sent successfully.");
+                                        }
+                                    });
+                                 }
+                             }
+                         }
+                     ]
+             })
+             $("#sendMailDialog").show();
+             $("#sendMailDialog").dialog("open");
+        }
+        else
+        {
+            alert("Please select folios for sending mail.");
+            return false;
+        }
+   });
+    
+   $("#sendInvBrMail").on('click', function () {
+       var jsonPostData = {};
+       var isChecked = false;
+       var isOnlyRoomFl = true;
+       var j = 0
+       $.each($("input[name*=payChkBox]"), function (index, value) {
+          var idIndex = $(this).attr('id').split("_")[1]; 
+          
+          if($(this).is(":checked") == true)
+          {
+              isChecked = true;
+              jsonPostData[j] = $("#hidFolioMasterid_"+idIndex).val();
+              if($("#folioType_"+idIndex).val() == 'COMM' || $("#posId_"+idIndex).val() > 0)
+              {
+                  isOnlyRoomFl = false;
+              }
+
+              j++;
+          }
+         // console.log(idIndex);
+       });
+       
+       if(isOnlyRoomFl == false)
+       {
+           alert("E-mail Invoice only supported for Room/Group Folios!");
+           return false;
+       }
+       
+       if(Object.keys(jsonPostData).length > 10)
+       {
+           alert("Only 10 invoices are allowed to send e-mail Invoices.");
+           return false;
+       }
+
+       if(isChecked == true)
+       {
+            $("#sendMailDialogBr").dialog({modal: true,
+                     closeOnEscape: false,
+                     minHeight:200,
+                     minWidth:350,
+                     resizable:false,
+                     autoOpen: false,
+                     open: function( event, ui ) {
+                         $("#isConsolidated").prop("checked",true);
+                     },
+                     buttons:[
+                         {
+                            id: 'sendMBrPreview',
+                            text: "Preview",
+                            click: function() {
+                                
+                                if($("#pkgCurrencyId").val() == ""
+                                         || $("#pkgCurrencyId").val() == 0)
+                                 {
+                                     $("#msgErrBr").html("Please select currency.");
+                                     $("#msgErrBr").show();
+                                 }
+                                 else
+                                 {
+                                    var name = $("#txtNameBr").val();
+                                    var email = $("#txtEmailBr").val();
+                                    var pkgCurrencyId = $("#pkgCurrencyId").val();
+                                    var isgroupitems = ($("#isConsolidated").is(":checked")?1:0);
+                                        var actionUrl = 'https://12738.hotelogix.net/account/hotelledger/sendmailaccountinvoice';
+                                        $(".ui-dialog").css({'z-index':'100'});
+                                        $("#loadingPanelText").html("Preview Invoices to for mail....");
+                                        $("#PanelModalWait_c").css({'z-index':'999'});
+                                        $("#PanelModalWait_mask").css({'z-index':'101'});
+
+                                        oPanelLoadingDiv.show();
+                                        $.ajax({
+                                            url: actionUrl,
+                                            type: "POST",
+                                            dataType:"html",
+                                            data: {name:name,email:email,selcurr:pkgCurrencyId,isgroupitems:isgroupitems,isPreview:1,foliomasterids:jsonPostData},
+                                            error: function(jqXHR, exception) {
+                                                oPanelLoadingDiv.hide();
+                                                alert('Something went wrong. Please try again later.');
+                                            },
+                                            success: function(htmlContent) {
+                                                 oPanelLoadingDiv.hide();
+                                                $(".ui-dialog").css({zIndex:101});
+                                                $("#PanelModalWait_mask").css({zIndex:91});
+                                                $("#PanelModalWait_c").css({zIndex:92});
+                                                $("#msgErrBr").html("");
+
+                                                var windowUrl = 'about:blank';
+                                                var uniqueName = new Date();
+                                                var windowName = 'Account Invoice' + uniqueName.getTime();
+                                                var printWindow = window.open(windowUrl,windowName,'left=0,top=0,width=600,height=550,toolbar=0,scrollbars=0,status=0');
+
+                                                printWindow.document.write(htmlContent);
+                                                printWindow.focus();
+                                                
+                                            }
+                                        });
+                                    }
+                            }
+                         },
+                         {
+                             id: 'sendMBr',
+                             text: "Send Mail",
+                             click: function() {
+
+                                 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+                                 if($("#txtNameBr").val() == "")
+                                 {
+                                     $("#msgErrBr").html("Please enter Valid Name.");
+                                     $("#msgErrBr").show();
+                                 }
+                                 else if($("#txtEmailBr").val() == ""
+                                         || !emailReg.test($("#txtEmailBr").val()))
+                                 {
+                                     $("#msgErrBr").html("Please enter Valid Email.");
+                                     $("#msgErrBr").show();
+                                 }
+                                 else if($("#pkgCurrencyId").val() == ""
+                                         || $("#pkgCurrencyId").val() == 0)
+                                 {
+                                     $("#msgErrBr").html("Please select currency.");
+                                     $("#msgErrBr").show();
+                                 }
+                                 else
+                                 {
+                                    var name = $("#txtNameBr").val();
+                                    var email = $("#txtEmailBr").val();
+                                    var pkgCurrencyId = $("#pkgCurrencyId").val();
+                                    var isgroupitems = ($("#isConsolidated").is(":checked")?1:0);
+
+                                    var actionUrl = 'https://12738.hotelogix.net/account/hotelledger/sendmailaccountinvoice';
+                                    $(".ui-dialog").css({'z-index':'100'});
+                                    $("#loadingPanelText").html("Send Invoices to mail....");
+                                    $("#PanelModalWait_c").css({'z-index':'999'});
+                                    $("#PanelModalWait_mask").css({'z-index':'101'});
+
+                                    oPanelLoadingDiv.show();
+                                    $.ajax({
+                                        url: actionUrl,
+                                        type: "POST",
+                                        dataType:"json",
+                                        data: {name:name,email:email,selcurr:pkgCurrencyId,isgroupitems:isgroupitems,foliomasterids:jsonPostData},
+                                        error: function(jqXHR, exception) {
+                                            oPanelLoadingDiv.hide();
+                                            alert('Something went wrong. Please try again later.');
+                                        },
+                                        success: function(data) {
+                                            oPanelLoadingDiv.hide();
+                                            $(".ui-dialog").css({zIndex:101});
+                                            $("#PanelModalWait_mask").css({zIndex:91});
+                                            $("#PanelModalWait_c").css({zIndex:92});
+                                            if(data.isError == 1)
+                                            {
+                                                $("#msgErrBr").html(data.errorMsg);
+                                                $("#msgErrBr").show();
+                                                return false;
+                                            }
+                                            else
+                                            {
+                                                $("#msgErrBr").html("");
+                                                $("#msgErrBr").hide();
+                                                $("#sendMailDialogBr").dialog("close");
+                                                alert("Mail sent successfully.");
+                                            }
+                                        }
+                                    });
+                                 }
+                             }
+                         }
+                     ]
+             })
+             $("#sendMailDialogBr").show();
+             $("#sendMailDialogBr").dialog("open");
+        }
+        else
+        {
+            alert("Please select folios for sending mail.");
+            return false;
+        }
+   });
+   
+
+</script>
+	
+ <tr>
+       	 <td>&nbsp;</td>
+    
+  </tr>
+  <tr>
+    <td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">
+			
+			<tbody><tr>
+			  <td height="1" colspan="2" bgcolor="#515151"></td>
+		  </tr>
+			
+			<tr>
+			  <td height="10" colspan="2"></td>
+		  </tr>
+			<tr>
+	    		<td class="footer">© Copyright HMS Infotech 2008 All Rights Reserved </td>
+	    		<td align="right" class="footer"><a href="http://www.hotelogix.com">Powered by Hotelogix </a></td>
+	  		</tr>
+		</tbody></table>
+  </td>
+  </tr>
+</tbody></table>	   	 
+			<script src="https://12738.hotelogix.net/js/fsmenu.js"></script> 
+		
+	<script type="text/javascript" src="https://12738.hotelogix.net/styles/assets-hl/js/dateformat.js?v=2n5202404091"></script>
+	
+         <script src="https://12738.hotelogix.net/js/utilities/utilities.js"></script> 
+	<script src="https://12738.hotelogix.net/js/calendar/calendar-min.js?v=2n5202404091"></script> 	
+	<script src="https://12738.hotelogix.net/js/cm/connection-min.js?v=2n5202404091"></script> 
+	<script src="https://12738.hotelogix.net/js/container/container-min.js?v=2n5202404091"></script> 
+        <script type="text/javascript" src="https://12738.hotelogix.net/styles/assets-hl/js/webtoolkit.base64.js"></script>
+	<script src="https://12738.hotelogix.net/js/yui/build/editor/editor-min.js"></script>
+	<script src="https://12738.hotelogix.net/js/cm/element-beta-min.js"></script> 
+	<script src="https://12738.hotelogix.net/js/cm/json-min.js"></script> 
+        <script src="https://12738.hotelogix.net/js/getstates.js.php?adminUrl=https://12738.hotelogix.net/admine&amp;v=2n5202404091"></script>
+        <link rel="stylesheet" type="text/css" href="https://12738.hotelogix.net/jq/css/smoothness/jquery-ui-1.10.2.custom.css?v=2n5202404091">
+        <script type="text/javascript" src="https://12738.hotelogix.net/jq/js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="https://12738.hotelogix.net/jq/js/jquery-ui-1.10.0.custom.min.js?v=2n5202404091"></script>
+        <script type="text/javascript" src="https://12738.hotelogix.net/styles/assets-hl/js/jqueryProgressBarInit.js?v=2n5202404091"></script>
+        
+        <script type="text/javascript" src="https://12738.hotelogix.net/jq/js/jquery.tree.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://12738.hotelogix.net/jq/css/smoothness/jquery.tree.css?v=2n5202404091">
+        <link rel="stylesheet" type="text/css" href="https://12738.hotelogix.net/styles/datatable/select2.min.css">
+        <script src="https://12738.hotelogix.net/styles/datatable/select2.min.js"></script> 
+	<script language="javascript">
+    YAHOO.namespace("example.container");
+
+    function init() {
+
+            if (!YAHOO.example.container.wait) {
+
+            // Initialize the temporary Panel to display while waiting for external content to load
+
+            YAHOO.example.container.wait = 
+                    new YAHOO.widget.Panel("wait",  
+                                                    { width: "240px", 
+                                                      fixedcenter: true, 
+                                                      close: false, 
+                                                      draggable: false, 
+                                                      zindex:4,
+                                                      modal: true,
+                                                      visible: false
+                                                      
+                                                    } 
+                                                );
+    
+            YAHOO.example.container.wait.setHeader("Please wait...");
+            YAHOO.example.container.wait.setBody("<img src=\""+waitLoader.src+"\"/>");
+            YAHOO.example.container.wait.render(document.body);
+
+        }
+	}
+	init();
+ </script>	 <script type="text/javascript">
+ 
+	YAHOO.namespace("example.calendar");
+    var navConfig = {
+					strings : {
+						month: "Choose Month",
+						year: "Enter Year",
+						submit: "OK",
+						cancel: "Cancel",
+						invalidYear: "Please enter a valid year"
+					},
+					monthFormat: YAHOO.widget.Calendar.SHORT,
+					initialFocus: "year"
+				};
+    var dtToday = new Date(getDateFromFormat('2024-04-10','yyyy-MM-dd'));
+	
+	YAHOO.example.calendar.init = function() {
+		
+		var navConfig = {
+					strings : {
+						month: "Choose Month",
+						year: "Enter Year",
+						submit: "OK",
+						cancel: "Cancel",
+						invalidYear: "Please enter a valid year"
+					},
+					monthFormat: YAHOO.widget.Calendar.SHORT,
+					initialFocus: "year"
+				};
+		
+		
+		
+		YAHOO.example.calendar.cal1 = new YAHOO.widget.Calendar("cal1","calFromContainer", { navigator:navConfig, title:"Choose a date:", close:true } );
+
+		var dtToday = new Date(getDateFromFormat('2024-04-10','yyyy-MM-dd'));
+		YAHOO.example.calendar.cal1.today = dtToday;
+		YAHOO.example.calendar.cal1.render()
+		YAHOO.example.calendar.cal1.hide();
+
+		YAHOO.example.calendar.calTo = new YAHOO.widget.Calendar("calTo","calToContainer", { navigator:navConfig, title:"Choose a date:", close:true } );
+		YAHOO.example.calendar.calTo.today = dtToday;	
+		YAHOO.example.calendar.calTo.render()
+		YAHOO.example.calendar.calTo.hide();
+        
+		YAHOO.example.calendar.cal1.show
+		
+		//Displaying Calendar From 
+		YAHOO.util.Event.addListener(
+										"showCalFrom", 
+										"click", 
+										function(){
+											showCalendar(YAHOO.example.calendar.cal1, YAHOO.util.Dom.get("displayFrom"));
+										},
+										YAHOO.example.calendar.cal1,
+										true
+									);
+		YAHOO.example.calendar.cal1.selectEvent.subscribe(handleSelect, YAHOO.example.calendar.cal1, true); 
+		//Displaying Calendar From 
+		
+		
+		//Displaying Calendar To
+		YAHOO.util.Event.addListener(
+										"showCalTo", 
+										"click", 
+										function(){
+											showCalendar(YAHOO.example.calendar.calTo, YAHOO.util.Dom.get("displayTill"));
+										},
+										YAHOO.example.calendar.calTo,
+										true
+									);
+		YAHOO.example.calendar.calTo.selectEvent.subscribe(handleSelect2, YAHOO.example.calendar.calTo, true); 
+		//Displaying Calendar To
+       	
+		    
+
+		
+	}
+ function showPaymentCal(){
+    YAHOO.example.calendar.calPayment = new YAHOO.widget.Calendar("calPayment","calPaymentContainer", { navigator:navConfig, title:"Choose a date:", close:true } );
+    YAHOO.example.calendar.calPayment.today = dtToday;	
+    YAHOO.example.calendar.calPayment.render()
+    YAHOO.example.calendar.calPayment.hide();   
+    YAHOO.example.calendar.calPayment.show();  
+    YAHOO.example.calendar.calPayment.selectEvent.subscribe(handleSelectPayment, YAHOO.example.calendar.calPayment, true); 
+ }
+ 
+ function showPaymentCalendar(cId,fNo){
+     //Displaying Calendar for payment Date
+    YAHOO.example.calendar.calPayment = new YAHOO.widget.Calendar("calPayment_"+cId,"calPaymentContainer_"+cId, { navigator:navConfig, title:"Choose a date:", close:true } );
+    YAHOO.example.calendar.calPayment.today = dtToday;	
+    YAHOO.example.calendar.calPayment.render();
+    YAHOO.example.calendar.calPayment.hide();   
+    YAHOO.example.calendar.calPayment.show();  
+    YAHOO.example.calendar.calPayment.cId=cId; 
+    YAHOO.example.calendar.calPayment.fNo=fNo; 
+    YAHOO.example.calendar.calPayment.selectEvent.subscribe(handleSelectPayments, YAHOO.example.calendar.calPayment, true); 
+ }
+	showCalendar = function(calender, txtObj){
+				
+				if(YAHOO.util.Dom.get('showCalFrom').getAttribute('nadate'))
+				{
+					
+					var naDtMysql=YAHOO.util.Dom.get('showCalFrom').getAttribute('nadate');
+					
+					var naDt = formatDate(new Date(getDateFromFormat(naDtMysql,'yyyy-MM-dd')),'MM/dd/yyyy');
+					
+					calender.cfg.setProperty("mindate",naDt);
+					
+					
+				}
+
+				calender.clear();	
+				if(txtObj != null && txtObj.value!="" ){
+				
+					var dateSelected = formatDate(new Date(getDateFromFormat(txtObj.value,'yyyy-MM-dd')),'MM/dd/yyyy');
+					var month = formatDate(new Date(getDateFromFormat(txtObj.value,'yyyy-MM-dd')),'MM');
+					var year = formatDate(new Date(getDateFromFormat(txtObj.value,'yyyy-MM-dd')),'yyyy'); 
+					
+					
+					
+				
+				
+					calender.removeRenderers();
+					
+					if(YAHOO.util.Dom.get('showCalFrom').getAttribute('nadate'))
+					{
+						
+						var naDtMysql=YAHOO.util.Dom.get('showCalFrom').getAttribute('nadate');
+						
+						var naDt = formatDate(new Date(getDateFromFormat(naDtMysql,'yyyy-MM-dd')),'MM/dd/yyyy');
+						
+						calender.cfg.setProperty("mindate",naDt);
+					}else
+					{
+				
+						calender.cfg.setProperty("mindate","");
+					}
+					calender.cfg.setProperty("maxdate","");
+					
+					
+					
+					
+					var myCustomRenderer = function(workingDate, cell) {
+						
+						 YAHOO.util.Dom.addClass(cell, "highcell"); 
+						 cell.innerHTML = workingDate.getDate();  
+					}
+					
+					calender.addRenderer(dateSelected, myCustomRenderer); 
+					//alert(dateSelected)
+					//alert(year)
+					//alert(month)
+					if(year != "1970"){
+						calender.setYear(year);
+						calender.setMonth(parseInt(month - 1));
+						calender.render();
+					}
+				}	
+				
+				
+				calender.show();
+				
+				
+				//app.textDateSelected = txtObj;
+				
+				//YAHOO.util.Event.on(document, "mousedown", app._onDocumentMouseDown);
+			}
+	
+	YAHOO.util.Event.onDOMReady(YAHOO.example.calendar.init);
+	
+	
+	function convertInLocaleDateFormat(day,month,year) {
+		var dateFormat = "short";
+		dateFormat = dateFormat.replace('mm', month);
+	    dateFormat = dateFormat.replace('MM', month);
+	    dateFormat = dateFormat.replace('m', month);
+	    dateFormat = dateFormat.replace('M', month);
+	    
+	    dateFormat = dateFormat.replace('dd', day);
+	    dateFormat = dateFormat.replace('DD', day);
+	    dateFormat = dateFormat.replace('D', day);
+	    dateFormat = dateFormat.replace('d', day);
+	    
+	    
+	    dateFormat = dateFormat.replace('YY', year);
+	    dateFormat = dateFormat.replace('yy', year);
+	    dateFormat = dateFormat.replace('Y', year);
+	    dateFormat = dateFormat.replace('y', year);
+	    
+	    return dateFormat;
+	}
+	
+	
+	function convertIMySqlLocalDate_Format(day,month,year) {
+		var dateFormat = "short";
+		date1=year+"-"+month+"-"+day;
+	    return date1;
+	}
+	
+	function changeDateFormat(day,month,year,dateFormat) {
+		var sDay = ""+day;
+		if(sDay.length == 1) {
+			day = "0" + day;
+		}
+		
+		dateFormat = dateFormat.replace('mm', month);
+	    dateFormat = dateFormat.replace('MM', month);
+	    dateFormat = dateFormat.replace('M', month);
+	    dateFormat = dateFormat.replace('m', month);
+	    
+	    dateFormat = dateFormat.replace('dd', day);
+	    dateFormat = dateFormat.replace('DD', day);
+	    dateFormat = dateFormat.replace('D', day);
+	    dateFormat = dateFormat.replace('d', day);
+	    
+	    
+	    dateFormat = dateFormat.replace('YY', year);
+	    dateFormat = dateFormat.replace('yy', year);
+	    dateFormat = dateFormat.replace('Y', year);
+	    dateFormat = dateFormat.replace('y', year);
+	    
+	    return dateFormat;
+	}
+	
+	var monthsName = [];
+	monthsName[1] = "January";
+	monthsName[2] = "February";
+	monthsName[3] = "March";
+	monthsName[4] = "April";
+	monthsName[5] = "May";
+	monthsName[6] = "June";
+	monthsName[7] = "July";
+	monthsName[8] = "August";
+	monthsName[9] = "September";
+	monthsName[10] = "October";
+	monthsName[11] = "November";
+	monthsName[12] = "December";
+	
+	var monthsNameShort = [];
+	monthsNameShort[1] = "Jan";
+	monthsNameShort[2] = "Feb";
+	monthsNameShort[3] = "Mar";
+	monthsNameShort[4] = "Apr";
+	monthsNameShort[5] = "May";
+	monthsNameShort[6] = "Jun";
+	monthsNameShort[7] = "Jul";
+	monthsNameShort[8] = "Aug";
+	monthsNameShort[9] = "Sep";
+	monthsNameShort[10] = "Oct";
+	monthsNameShort[11] = "Nov";
+	monthsNameShort[12] = "Dec";
+	
+	
+</script>	
+<script type="text/javascript">
+    var oPanelLoadingDiv = new YAHOO.widget.Panel("PanelModalWait",  
+				{ width:"260px",
+				  height:"70px", 	 
+				  fixedcenter:true, 
+				  close:false, 
+				  draggable:false, 
+				  zindex:4,
+				  modal:true,
+				  visible:true
+				} 
+			);
+    oPanelLoadingDiv.setBody('<table width="100%" cellpadding="0"  cellspacing="0" border="0" ><tr><td align="center" valign="middle" style="vertical-align:middle;"><img src="https://12738.hotelogix.net/styles/assets-hl/css/wait.gif" /></td></tr><tr height="1"><td>&nbsp;</td></tr><tr><td align="center" height:"11"><div id="loadingPanelText">Loading Content...</div></td></tr></table>');
+    oPanelLoadingDiv.render(document.body);
+    oPanelLoadingDiv.hide();
+      
+</script>
+<div id="setDynamicIP" title="Connect to Tally" style="display:none;">
+	<table width="100%" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+			<td colspan="4" height="10"></td>
+			</tr>
+			<tr>
+			<td><strong>Dynamic IP: </strong></td>
+			<td><input type="text" name="dynamicIP" id="dynamicIP" value=""></td>
+			<td><strong>Port: </strong></td>
+			<td><input type="text" name="dynamicPort" id="dynamicPort" value=""></td>
+			</tr>
+	</tbody></table>
+<div>
+
+
+
+
+
+		<script type="text/javascript">
+					var listMenu = new FSMenu('listMenu', true, 'visibility', 'visible', 'hidden');
+					listMenu.cssLitClass = 'highlighted';
+					function animClipDown(ref, counter)
+					{
+					 var cP = Math.pow(Math.sin(Math.PI*counter/200),0.75);
+					 ref.style.clip = (counter==100 ? (window.opera ? '': 'rect(auto, auto, auto, auto)') :
+					  'rect(0, ' + ref.offsetWidth + 'px, '+(ref.offsetHeight*cP)+'px, 0)');
+					};
+	
+					function animFade(ref, counter)
+					{
+					 var f = ref.filters, done = (counter==100);
+					 if (f)
+					 {
+					  if (!done && ref.style.filter.indexOf("alpha") == -1)
+					   ref.style.filter += ' alpha(opacity=' + counter + ')';
+					  else if (f.length && f.alpha) with (f.alpha)
+					  {
+					   if (done) enabled = false;
+					   else { opacity = counter; enabled=true }
+					  }
+					 }
+					 else ref.style.opacity = ref.style.MozOpacity = counter/100.1;
+					};
+	
+					listMenu.animations[listMenu.animations.length] = animFade;
+					listMenu.animations[listMenu.animations.length] = animClipDown;
+					listMenu.animSpeed = 20;
+	
+					var arrow = null;
+					if (document.createElement && document.documentElement)
+					{
+					 arrow = document.createElement('span');
+					 arrow.appendChild(document.createTextNode('>'));
+					 //arrow = document.createElement('img');
+					 //arrow.src = 'arrow.gif';
+					 //arrow.style.borderWidth = '0';
+	
+					 arrow.className = 'subind';
+					}
+	
+					addEvent(window, 'load', new Function('listMenu.activateMenu("listMenuRoot", arrow)'));
+					
+					
+					
+					function changeCardType(obj)
+					{
+								
+								var frm = document.frmListView;	
+								
+								var cardNameStr=obj.options[obj.selectedIndex].getAttribute("payModeAtt");
+								var cardNameIdStr=obj.options[obj.selectedIndex].getAttribute("payModeIdAtt");			
+								var cardType=frm.payTypes;	
+								var modeP=obj.value;
+								
+							
+								if(cardNameStr=="")
+								{
+									cardType.options.length=1;
+									
+								}else
+								{
+									cardType.options.length=1;
+									var cardNameArr=cardNameStr.split('__');
+									var cardNameIdArr=cardNameIdStr.split('__');
+									
+									var Opt = document.createElement('OPTION');	
+									
+									for(var i=0;i < cardNameArr.length;i++)
+									{
+										var opt1=Opt.cloneNode(true);
+										opt1.text = cardNameArr[i];
+										opt1.value = cardNameIdArr[i];								
+										cardType.options[i+1]=opt1;
+									}	
+									
+									if(modeP.toUpperCase()=='CASH')
+									{
+										cardType.selectedIndex=1;
+										//cardType.disabled=true;
+									}else
+									{
+										cardType.disabled=false;
+									}
+											
+								}
+								
+									
+							
+					}
+
+function doDynamicAuth(actionUrl, currentIP, currentPort)
+{
+	$("#setDynamicIP").dialog({modal: true,
+			closeOnEscape: false,
+			minHeight:100,
+			minWidth:250,
+			width:450,
+			height:180,
+			resizable:false,
+			autoOpen: false,
+			create: function () {
+				$(".ui-dialog").css({"z-index":"10000"});
+				$("#dynamicIP").val(currentIP);  
+				$("#dynamicPort").val(currentPort);  
+			},
+			buttons:[
+				{
+					id: 'connectTally',
+					text: "Connect",
+					click: function() {
+						var changedIP = $("#dynamicIP").val();
+						var changedPort = $("#dynamicPort").val();
+						if(changedIP == "")
+						{
+							alert("Please enter Dynamic Tally Server IP.");
+							return false;
+						}
+						
+						if(changedPort == "")
+						{
+							alert("Please enter Tally Server Port.");
+							return false;
+						}
+						$("#connectTally").prop('disabled', true);
+						window.location.href=actionUrl+"/nwip/"+changedIP+"/nwport/"+changedPort;
+					}
+				}
+			]
+	});
+
+	$("#setDynamicIP").dialog('open'); 
+}		
+</script>
+	</div></div></td></tr></tbody></table></body></html>

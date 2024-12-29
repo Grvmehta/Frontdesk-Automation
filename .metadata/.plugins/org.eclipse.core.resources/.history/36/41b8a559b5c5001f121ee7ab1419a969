@@ -1,0 +1,336 @@
+<html><head>   
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="https://12738.hotelogix.net/favicon.ico">
+<title>Frontdesk</title>
+    <link href="https://12738.hotelogix.net/bootstrap_5.0.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+   
+
+<link href="https://12738.hotelogix.net/ui_2.5/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+<link href="https://12738.hotelogix.net/styles/main_frontdesk.css?v=2n520240604" rel="stylesheet" type="text/css">
+<link href="https://12738.hotelogix.net/styles/invoice.css?v=2n520240604" rel="stylesheet" type="text/css" media="screen, print">
+
+<link href="https://12738.hotelogix.net/bootstrap_5.0.2/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+<link href="https://12738.hotelogix.net/bootstrap_5.0.2/fontawesome/css/brands.css" rel="stylesheet" type="text/css">
+<link href="https://12738.hotelogix.net/bootstrap_5.0.2/fontawesome/css/solid.css" rel="stylesheet" type="text/css">
+<link href="https://12738.hotelogix.net/bootstrap_5.0.2/fontawesome/css/regular.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" id="zsiqscript" defer="" src="https://salesiq.zoho.com/widget"></script><script type="text/javascript" src="https://12738.hotelogix.net/js/yui/build/yuiloader/yuiloader-min.js"></script> 
+<script type="text/javascript" src="https://12738.hotelogix.net/js/lang/lang.en.js?v=2n520240604"></script>
+<script type="text/javascript" src="https://12738.hotelogix.net/js/jquery/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="https://12738.hotelogix.net/js/common.js?v=2n520240604"></script>
+<script type="text/javascript" src="https://12738.hotelogix.net/js/google-map-loader.js?v=2n520240604"></script> 
+<script type="text/javascript" async="" src="https://12738.hotelogix.net/js/signature/ga.js?v=2n520240604"></script>
+<!-- HLX CSS File -->
+<link href="https://12738.hotelogix.net/ui_2.5/css/ui-hlx-2.5.css" rel="stylesheet">
+
+<style>
+#pageLoading{
+    /*background-image: url(https://12738.hotelogix.net/styles/assets-hl/css/wait.gif);
+    background-repeat: no-repeat;
+    background-position: top left;*/
+	width:100%;
+	height:800px;
+	float:left;
+	background-color:#FFFFFF;
+}
+
+
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+var waitLoader = new Image();
+//-->
+
+    function focus_popup(){
+        if(typeof window.parent_disable == 'function') {
+            // function exists, so we can now call it
+            parent_disable();
+        }
+    }
+</script>
+
+<link rel="stylesheet" href="https://css.zohocdn.com/salesiq/styles/buttontheme8_TCYibvvhlM_ICzHUCxiEsbsWpdou9MCfwYDrU-sFWcNyNmog2T0a-y8lR5DMEt-U_.css" integrity="sha384-TCYibvvhlM/ICzHUCxiEsbsWpdou9MCfwYDrU+sFWcNyNmog2T0a+y8lR5DMEt+U" crossorigin="anonymous"><script src="https://js.zohocdn.com/salesiq/js/newbutton_3EBv9MWFT3-FZSIZoMeREJvvHmFy_w0FygATmu-7Bn8VLpmH5e1qWglB7m19kILx_.js"></script><link rel="stylesheet" href="https://css.zohocdn.com/salesiq/styles/buttonthemepostload_IeszGAuXtDTxTEJK7timQ5yjglcU8S5IY7ZCdSONgPnd50wpvO3Nkexw-mOCFMo2_.css"></head>
+
+<body class=" yui-skin-sam body-en" id="docMain" onfocus="focus_popup();" onclick="focus_popup();">
+<div id="hkaudittraildiv" style="display:none;"></div>
+<div id="fdsurveydiv" style="display:none;"></div>
+<div id="detectInternetConnOFF" class="notIntConn" style="display:none;">You Are Offline...</div>
+ <div id="div_touch_activate" class="touchactive" style=" z-index: 999999999; display:none" ontouchstart="javascript:activatetouch(event,this);" ontouchend="javascript:deactivatetouch(event,this);"></div>
+ 
+
+<link href="https://12738.hotelogix.net/bootstrap_5.0.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://12738.hotelogix.net/styles/login.css?v=2n520240604" rel="stylesheet" type="text/css">
+
+<div class="container login-page">
+                    <div class="card rounded-3 m-4">
+        <div class="row g-0">
+            <div class="col-lg-6 d-flex align-items-center hotelogix-login-disc">
+                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                    <div class="text-center">
+	<h2>
+		The WORLD'S EASIEST SYSTEM to get started with.</h2>
+	<h2 class="small">
+		<a class="text-blue" href="http://www.hotelogix.com/about-hotelogix.php">Read More...</a></h2>
+</div>
+<div>
+	<h3 class="text-blue">
+		Includes:</h3>
+	<ul>
+		<li>
+			Multi-Property and Multi-currency Property Management</li>
+		<li>
+			Web Booking Engine for your website</li>
+		<li>
+			Unlimited Point of Sale terminals</li>
+		<li>
+			Direct Online Payments/Credit Cards Processing</li>
+		<li>
+			Housekeeping Module</li>
+		<li>
+			Travel Agent and Corporate Booking Consoles</li>
+		<li>
+			Connectivity to GDS/IDS &amp; Travel Portals</li>
+		<li>
+			Powerful Reporting and Revenue Management</li>
+	</ul>
+	<p>
+		<a class="text-blue" href="http://www.hotelogix.com/all-feature-list.php">Read more...</a></p>
+</div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card-body p-md-5 pb-md-4 mx-md-5">
+                                        <div class="text-center">
+                        <a href="#"><img src="https://12738.hotelogix.net/images/hotelogix-logo.png"></a>
+                        <h1 class="welcome-hotelogix">Welcome to Hotelogix <span>2.5</span></h1>
+                    </div>
+
+                    
+                    <form action="" method="post" name="frmCompanyInfo" onsubmit="return submitLoginFrm();">
+                        <div class="form-floating mb-3">
+                            <input name="hotelCode" id="hotelCodeId" type="text" class="form-control" value="" autocomplete="off" placeholder="Hotel Code *">
+                            <label for="hotelCodeId">Hotel Code</label>
+                            <p class="error-block text-danger"></p>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="userName" id="userNameId" type="text" class="form-control" value="" autocomplete="off" placeholder="E-mail Address *">
+                            <label for="userNameId">E-mail Address *</label>
+                            <p class="error-block text-danger"></p>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="password" id="passwordId" type="password" class="form-control" placeholder="Password *" autocomplete="off" value="">
+                            <label for="passwordId">Password *</label>
+                            <p class="error-block text-danger"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="form-floating">
+                                    <input name="txtCaptcha" id="txtCaptcha" type="text" class="form-control text-captcha" placeholder="Type the text shown here" autocomplete="OFF">
+                                    <label for="txtCaptcha">Type the text shown here</label>
+                                    <p class="error-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="text-center">
+                                    <img width="130" height="70" src="https://imgs6.hotelogix.net/openhms/o/hotelogix/cache/0?u=aHR0cHM6Ly9obHhjYXB0Y2hhLnMzLmFtYXpvbmF3cy5jb20vNGY1MWUxZjczY2RiMjAxODBlYzhiY2MzMGRiYWEzZDEucG5n" alt="captcha">
+                                    <input type="hidden" value="4f51e1f73cdb20180ec8bcc30dbaa3d1" name="captcha[id]">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check mb-5">
+                            <label>
+                                <input type="checkbox" name="rememberOnMac" class="form-check-input" value="1">
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+                        <input name="serverReferer" id="serverReferer" type="hidden" value="frontdesk">
+                        <input name="ARSO774_YYYT" id="ARSO774_YYYT" type="hidden" value="66644a2e21e4a9.25997516">
+                        <input name="extToken" id="extToken" type="hidden" value="">
+                        <div class="mb-4"><input name="Submit52" type="submit" class="btn btn-warning btn-login" value="Login"></div>
+                    </form>
+                        
+        <form id="HMSPayNowForm" name="HMSPayNowForm" action="https://12738.hotelogix.net/hmsbilling/billpayment/hotelogixpayment/r/eyJhbW91bnQiOiIyNTAiLCJjdXJyZW5jeSI6IlVTRCIsImRlc2NyaXB0aW9uIjoiSG90ZWxvZ2l4IFN1YnNjcmlwdGlvbiBDYXNoIENvdW50ZXIiLCJvdGhlcnMiOiIiLCJjYW5jZWxVcmwiOiIiLCJyZXR1cm5VcmwiOiIiLCJob3RlbElkIjpudWxsLCJzaWduYXR1cmUiOiJlZjhjNTNhODFjNGM1MTAzYTcxNTQ1YjZhODhkY2YwN2Y3NzFmMmM3In0" method="get" target="_blank">
+        </form><script language="javascript">
+         function HMSPayNow(){ document.HMSPayNowForm.submit();}
+         </script>                    <div class="text-center">
+                        <a href="https://12738.hotelogix.net/frontdesk/login/recover" class="text-blue">
+                            Forgot your password?                        </a>
+                    </div>
+                    <div class="text-center pt-5">
+                        Do not have an Account yet?                        <a href="http://hotelogix.com/request-a-demo.php?utm_medium=referral&amp;utm_source=staygrid&amp;utm_campaign=pms" target="_blank" class="text-blue" title="Click Here">Click Here</a> to Book a Demo.                    </div>
+                    <div class="text-center" style="min-height: 100px;">
+                        <script type="text/javascript">
+                            var $zoho = $zoho || {};
+                            $zoho.salesiq = $zoho.salesiq || {
+                                widgetcode: "dcc2c9998d9af1780f2374772e2436b94f1042b06ee11c4af3498afbe588b167feb79731b60e202192c2895c9acefb61",
+                                values: {},
+                                ready: function() {}
+                            };
+                            var d = document;
+                            s = d.createElement("script");
+                            s.type = "text/javascript";
+                            s.id = "zsiqscript";
+                            s.defer = true;
+                            s.src = "https://salesiq.zoho.com/widget";
+                            t = d.getElementsByTagName("script")[0];
+                            t.parentNode.insertBefore(s, t);
+                            d.write("<div id='zsiqwidget'></div>");
+                        </script><div id="zsiqwidget"></div><div id="zsiqbtn" class="zsiq_float8 zsiq_custombtn" style="display: inline-block; width: 120px; height: 40px;" data-id="zsalesiq"><div id="zsiq_btn" style="font-family:inherit"><img onload="$ZSIQWidgetUI.onLoadCustomSticker(this)" src="https://files.zohopublic.com/public/LiveDesk/download/1617267736733_244354000000002043?x-cli-msg=%7B%22x-siq-filetype%22%3A%22bsticker_online%22%2C%22x-siq-lsid%22%3A%22244354000000002043%22%2C%22x-siq-soid%22%3A%22651768071%22%2C%22x-siq-ispreview%22%3Afalse%2C%22x-siq-pfname%22%3A%22livechat%20online.png%22%2C%22x-siq-downloadtype%22%3A%22default%22%7D" class="" alt="Chat Widget" height="400" width="400"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script language="javascript">
+    window.onload = initValues;
+
+    function initValues() {
+        var hotelCodeId = document.getElementById("hotelCodeId");
+        var userName = document.getElementById("userNameId");
+        var password = document.getElementById("passwordId");
+        if (hotelCodeId.value == '') {
+            hotelCodeId.focus();
+            return false;
+        }
+        if (userName.value == '') {
+            userName.focus();
+        } else {
+            password.focus();
+        }
+    }
+
+    function submitLoginFrm() {
+        var error = 0;
+        var hId = '';
+        var usnmId = '';
+        var pwdId = '';
+        var captchaId = '';
+
+        var hotelCodeObj = document.frmCompanyInfo.hotelCode;
+        var userNameObj = document.frmCompanyInfo.userNameId;
+        var passwordObj = document.frmCompanyInfo.passwordId;
+        var captchaObj = document.frmCompanyInfo.txtCaptcha;
+
+        hId = hotelCodeObj.value.trim();
+        usnmId = userNameObj.value.trim();
+        pwdId = passwordObj.value.trim();
+        captchaId = captchaObj.value.trim();
+
+        hotelCodeObj.className = "form-control";
+        userNameObj.className = "form-control";
+        passwordObj.className = "form-control";
+        captchaObj.className = "form-control text-captcha";
+
+        hotelCodeObj.parentElement.getElementsByTagName('p')[0].innerHTML = '';
+        userNameObj.parentElement.getElementsByTagName('p')[0].innerHTML = '';
+        passwordObj.parentElement.getElementsByTagName('p')[0].innerHTML = '';
+        captchaObj.parentElement.getElementsByTagName('p')[0].innerHTML = '';
+
+
+        var host = 'https://hotelogix.net';
+        reg = /^\s*\d+\s*$/;
+
+        if (!reg.test(hId)) {
+            hotelCodeObj.className = "input-error form-control";
+            hotelCodeObj.parentElement.getElementsByTagName('p')[0].innerHTML = 'Please provide valid hotel code.';
+            error = 1;
+        }
+
+
+        if (usnmId == '') {
+            userNameObj.className = "input-error form-control";
+            userNameObj.parentElement.getElementsByTagName('p')[0].innerHTML = 'Please provide user name.';
+            error = 1;
+        }
+
+        if (validateEmail(usnmId) == false) {
+            userNameObj.className = "input-error form-control";
+            userNameObj.parentElement.getElementsByTagName('p')[0].innerHTML = 'Please Enter Valid Email Address.';
+            error = 1;
+        }
+
+        if (pwdId == '') {
+            passwordObj.className = "input-error form-control";
+            passwordObj.parentElement.getElementsByTagName('p')[0].innerHTML = 'Please provide password.';
+            error = 1;
+        }
+
+        if (captchaId == '') {
+            captchaObj.className = "input-error form-control text-captcha";
+            captchaObj.parentElement.getElementsByTagName('p')[0].innerHTML = 'Please type the text for Image Verification.';
+            error = 1;
+        }
+
+        if (error != 0) {
+            return false;
+
+        }
+
+        if (host.indexOf("hz1.stayezee.com") == -1) {
+
+            var hostArr = host.split("://");
+            if (hId != '') {
+                host = hostArr[0] + "://" + hId + "." + hostArr[1].replace('www.', '');
+            }
+
+        }
+
+        var actionUrl = host + "/frontdesk/login/authenticate";
+        var hrId = '';
+        var campaignCode = '';
+        if (hrId != '') {
+            actionUrl += '?hr_id=' + hrId + '&campaign_code=' + campaignCode;
+        }
+
+        document.frmCompanyInfo.action = actionUrl;
+
+    }
+
+    function requestForExtTrial(hotelCode) {
+        var host = 'https://hotelogix.net';
+        document.frmCompanyInfo.action = host + "/frontdesk/login/requesttoextendtrial/hotelCode/" + hotelCode;
+        document.frmCompanyInfo.submit();
+    }
+
+    function closeMe(closeId) {
+        document.getElementById(closeId).style.display = 'none';
+    }
+
+    function validateEmail(email) {
+
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+
+    }
+</script>
+<script>
+    $zoho.salesiq.ready = function() {
+        $zoho.salesiq.customfield.add({
+            "name": "Hotel Name",
+            "hint": "Hotel Name",
+            "required": "true",
+        });
+
+
+    }
+</script><script src="https://12738.hotelogix.net/bootstrap_5.0.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+
+ <!-- Vendor JS Files -->
+
+  <script src="https://12738.hotelogix.net/ui_2.5/vendor/tinymce/tinymce.min.js"></script>
+  
+<!-- Template Main JS File -->
+<script src="https://12738.hotelogix.net/ui_2.5/js/main.js"></script>
+
+
+<style type="text/css" id="zsiqcustomcss" data-id="zsalesiq">.zsiq_flt_rel8.siqico-chat_min:before, .zsiq_flt_rel8.siqico-call_min:before{background : #8FE33E;}.zsiq_flt_rel8.siqico-chat_min:after, .zsiq_flt_rel8.siqico-call_min:after{border-right: 6px solid  #8FE33E;box-shadow: 1px 2px 0px -1px  #8FE33E, 1px -2px 0px -1px  #8FE33E;}</style><div style="visibility: hidden; top: -10000px; display: block;" class="zls-sptwndw  siqembed siqtrans siqhide zsiq-mobhgt zsiq-newtheme siq_rht zsiq_size3" embedtheme="8" data-id="zsiqembed"><div id="siqcht" class="zls-prelative"><iframe id="siqiframe" title="SalesIQ Chatwindow" seamless="seamless" height="460" width="100%" scrolling="no"></iframe></div></div></body></html>
