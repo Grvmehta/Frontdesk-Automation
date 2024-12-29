@@ -3521,3 +3521,7 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2024-12-29 12:50:16,412 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Old office data\NewFD\Smoke\src\main\resources
 2024-12-29 12:50:16,413 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-12-29 12:50:16,413 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Old office data\NewFD\Smoke\src\test\resources
+2024-12-29 12:51:01,926 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-29 12:51:01,926 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Old office data\NewFD\Smoke\src\main\resources
+2024-12-29 12:51:01,927 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-29 12:51:01,927 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Old office data\NewFD\Smoke\src\test\resources
